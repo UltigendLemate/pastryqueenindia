@@ -4,7 +4,7 @@ type Props = {}
 
 const index = (props: Props) => {
   return (
-    <div>footer here</div>
+    <div className='bg-white text-black'>footer here</div>
   )
 }
 

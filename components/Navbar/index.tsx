@@ -4,7 +4,7 @@ type Props = {}
 
 const index = (props: Props) => {
   return (
-    <div>navbar here</div>
+    <div className='bg-white text-black'>navbar here</div>
   )
 }
 
