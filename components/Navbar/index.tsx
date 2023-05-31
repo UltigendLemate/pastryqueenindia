@@ -62,17 +62,17 @@ const index = (props: Props) => {
                   </Link>
                 </li>
                 <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent mx-2">
-                  <Link href="/" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/Gallery" onClick={() => setNavbar(!navbar)}>
                     Gallery
                   </Link>
                 </li>
-                <li className="text-base text-black py-2 lg:px-6 text-center border-b-2 lg:border-b-0 font-semibold border-white hover:bg-pink-500 decoration-pink-500 underline-offset-8 hover:cursor-pointer lg:hover:text-white transition-all duration-400 rounded-lg mx-2">
-                  <Link href="/" onClick={() => setNavbar(!navbar)}>
+                <li className="text-base text-black py-2 lg:px-6 text-center border-b-2 lg:border-b-0 font-semibold border-white hover:bg-pink-300 decoration-pink-500 underline-offset-8 hover:cursor-pointer lg:hover:text-black transition-all duration-400 rounded-lg mx-2">
+                  <Link href="/RulesAndRegulations" onClick={() => setNavbar(!navbar)}>
                     Rules And Regulations
                   </Link>
                 </li>
                 <li className="text-base bg-pink-400 hover:bg-pink-500 rounded-lg text-black py-2 lg:px-6 text-center border-b-2 lg:border-b-0 font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400 mx-2">
-                  <Link href="/" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/RegisterNow" onClick={() => setNavbar(!navbar)}>
                     Register Now!
                   </Link>
                 </li>
