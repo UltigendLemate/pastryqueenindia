@@ -67,7 +67,7 @@ const index = (props: Props) => {
                   </Link>
                 </li>
                 <li className="text-base text-black py-2 lg:px-6 text-center border-b-2 lg:border-b-0 font-semibold border-white hover:bg-pink-300 decoration-pink-500 underline-offset-8 hover:cursor-pointer lg:hover:text-black transition-all duration-400 rounded-lg mx-2">
-                  <Link href="/RulesAndRegulations" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/JPIC Guidelines & Rules.pdf" onClick={() => setNavbar(!navbar)}>
                     Rules And Regulations
                   </Link>
                 </li>
