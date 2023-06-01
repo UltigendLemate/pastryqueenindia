@@ -6,8 +6,9 @@ import { Twirl as Hamburger } from 'hamburger-react'
 import Image from "next/image"
 import Logo from "../../public/logo.jpg"
 type Props = {}
+import Data from "./Data"
 
-const index = (props: Props) => {
+const index = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
@@ -15,11 +16,9 @@ const index = (props: Props) => {
         <div className="justify-between px-4 mx-auto width-screen lg:items-center lg:flex">
           <div>
             <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
-              {/* LOGO */}
               <Link href="/">
-                <Image src={Logo} alt='' width={60} height={72} />
+                <Image src={Logo} alt='' width={50} height={60} />
               </Link>
-              {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="lg:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-lg outline-none focus:border-gray-400 focus:border"
@@ -35,43 +34,24 @@ const index = (props: Props) => {
               className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${navbar ? 'p-12 md:p-0 block' : 'hidden'
                 }`}
             >
-              <ul className="h-screen lg:h-auto items-center justify-center lg:flex ">
-                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent  ">
-                  <Link href="/" onClick={() => setNavbar(!navbar)}>
-                    About
-                  </Link>
-                </li>
-                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent  ">
-                  <Link href="/" onClick={() => setNavbar(!navbar)}>
-                    Organizers
-                  </Link>
-                </li>
-                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent  ">
-                  <Link href="/" onClick={() => setNavbar(!navbar)}>
-                    Sponsors
-                  </Link>
-                </li>
-                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent  ">
-                  <Link href="#home" onClick={() => setNavbar(!navbar)}>
-                    Participants
-                  </Link>
-                </li>
-                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent  ">
-                  <Link href="/" onClick={() => setNavbar(!navbar)}>
-                    Contact
-                  </Link>
-                </li>
-                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent  ">
-                  <Link href="/Gallery" onClick={() => setNavbar(!navbar)}>
-                    Gallery
-                  </Link>
-                </li>
-                <li className="text-base text-black py-2 lg:px-6 text-center border-b-2 lg:border-b-0 font-semibold border-white hover:bg-pink-300 decoration-pink-500 underline-offset-8 hover:cursor-pointer lg:hover:text-black transition-all duration-400 rounded-lg  ">
+              <ul className="h-screen lg:h-auto items-center justify-center py-2 lg:flex lg:flex-row mt-3 lg:mt-0 align-middle">
+                <div className='flex lg:flex-row flex-col align-middle justify-center'>
+                  {Data.map((Part, i) => (
+                    <div key={i}>
+                      <li className="lg:text-sm text-base mb-4 text-black lg:px-4 lg:mb-0 text-center font-semibold hover:cursor-pointer hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent">
+                        <Link href="/" onClick={() => setNavbar(!navbar)}>
+                          {Part}
+                        </Link>
+                      </li>
+                    </div>
+                  ))}
+                </div>
+                <li className="lg:text-sm text-base text-black mx-2 mb-2 px-2 lg:py-2 pb-2 lg:mb-0 text-center font-semibold lg:hover:bg-gray-300 hover:underline-offset-8 decoration-pink-500 underline-offset-8 hover:cursor-pointer lg:hover:text-black transition-all duration-400 rounded-lg">
                   <Link href="/JPIC Guidelines & Rules.pdf" onClick={() => setNavbar(!navbar)}>
                     Rules And Regulations
                   </Link>
                 </li>
-                <li className="text-base bg-pink-400 hover:bg-pink-500 rounded-lg text-black py-2 lg:px-6 text-center border-b-2 lg:border-b-0 font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400  ">
+                <li className="lg:text-sm text-base bg-pink-400 mb-4 lg:mb-0 hover:bg-pink-500 rounded-lg text-black py-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400">
                   <Link href="/RegisterNow" onClick={() => setNavbar(!navbar)}>
                     Register Now!
                   </Link>
@@ -79,9 +59,9 @@ const index = (props: Props) => {
               </ul>
             </div>
           </div>
-        </div>
-      </nav>
-    </div>
+        </div >
+      </nav >
+    </div >
   )
 }
 
