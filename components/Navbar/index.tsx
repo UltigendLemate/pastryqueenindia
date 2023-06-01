@@ -1,4 +1,4 @@
-"use Client"
+// "use Client"
 import React from 'react'
 import Link from 'next/link';
 import { useState } from 'react';
@@ -36,42 +36,42 @@ const index = (props: Props) => {
                 }`}
             >
               <ul className="h-screen lg:h-auto items-center justify-center lg:flex ">
-                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent mx-2">
+                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent  ">
                   <Link href="/" onClick={() => setNavbar(!navbar)}>
                     About
                   </Link>
                 </li>
-                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent mx-2">
+                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent  ">
                   <Link href="/" onClick={() => setNavbar(!navbar)}>
                     Organizers
                   </Link>
                 </li>
-                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent mx-2">
+                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent  ">
                   <Link href="/" onClick={() => setNavbar(!navbar)}>
                     Sponsors
                   </Link>
                 </li>
-                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent mx-2">
+                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent  ">
                   <Link href="#home" onClick={() => setNavbar(!navbar)}>
                     Participants
                   </Link>
                 </li>
-                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent mx-2">
+                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent  ">
                   <Link href="/" onClick={() => setNavbar(!navbar)}>
                     Contact
                   </Link>
                 </li>
-                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent mx-2">
+                <li className="text-base text-black py-2 lg:px-6 text-center lg:border-b-0 font-semibold hover:cursor-pointer  hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent  ">
                   <Link href="/Gallery" onClick={() => setNavbar(!navbar)}>
                     Gallery
                   </Link>
                 </li>
-                <li className="text-base text-black py-2 lg:px-6 text-center border-b-2 lg:border-b-0 font-semibold border-white hover:bg-pink-300 decoration-pink-500 underline-offset-8 hover:cursor-pointer lg:hover:text-black transition-all duration-400 rounded-lg mx-2">
+                <li className="text-base text-black py-2 lg:px-6 text-center border-b-2 lg:border-b-0 font-semibold border-white hover:bg-pink-300 decoration-pink-500 underline-offset-8 hover:cursor-pointer lg:hover:text-black transition-all duration-400 rounded-lg  ">
                   <Link href="/JPIC Guidelines & Rules.pdf" onClick={() => setNavbar(!navbar)}>
                     Rules And Regulations
                   </Link>
                 </li>
-                <li className="text-base bg-pink-400 hover:bg-pink-500 rounded-lg text-black py-2 lg:px-6 text-center border-b-2 lg:border-b-0 font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400 mx-2">
+                <li className="text-base bg-pink-400 hover:bg-pink-500 rounded-lg text-black py-2 lg:px-6 text-center border-b-2 lg:border-b-0 font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400  ">
                   <Link href="/RegisterNow" onClick={() => setNavbar(!navbar)}>
                     Register Now!
                   </Link>
