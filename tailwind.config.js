@@ -11,6 +11,10 @@ module.exports = {
         Rampart: ["Rampart One", "cursive"],
         BebasNeue: ["Bebas Neue", "sans-serif"],
         RobotoCondensed: ["Roboto Condensed", "sans-serif"],
+        ProzaLibre: ["Proza Libre", "sans-serif"],
+        Oswald: ["Oswald", "sans-serif"],
+        Quattrocento: ["Quattrocento", "serif"],
+        Lustria: ['Lustria', "serif"],
       },
       colors: {
         primary: "#fd0ec1",
