@@ -12,7 +12,7 @@ const index = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="w-full fixed top-0 left-0 right-0 z-20 bg-white">
+      <nav className="w-full fixed top-0 left-0 right-0 z-50 bg-white">
         <div className="justify-between px-4 mx-auto width-screen lg:items-center lg:flex">
           <div>
             <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
@@ -38,7 +38,7 @@ const index = () => {
                 <div className='flex lg:flex-row flex-col align-middle justify-center'>
                   {Data.map((Part, i) => (
                     <div key={i}>
-                      <li className="lg:text-sm text-base mb-4 text-black lg:px-4 lg:mb-0 text-center font-semibold hover:cursor-pointer hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent">
+                      <li className="lg:text-base text-base mb-4 text-black lg:px-4 lg:mb-0 text-center font-semibold hover:cursor-pointer hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent">
                         <Link href="/" onClick={() => setNavbar(!navbar)}>
                           {Part}
                         </Link>
@@ -46,12 +46,12 @@ const index = () => {
                     </div>
                   ))}
                 </div>
-                <li className="lg:text-sm text-base text-black mx-2 mb-2 px-2 lg:py-2 pb-2 lg:mb-0 text-center font-semibold lg:hover:bg-gray-300 hover:underline-offset-8 decoration-pink-500 underline-offset-8 hover:cursor-pointer lg:hover:text-black transition-all duration-400 rounded-lg">
+                <li className="lg:text-base text-base text-black mx-2 mb-2 px-2 lg:py-2 pb-2 lg:mb-0 text-center font-semibold lg:hover:bg-gray-300 hover:underline-offset-8 decoration-pink-500 underline-offset-8 hover:cursor-pointer lg:hover:text-black transition-all duration-400 rounded-lg">
                   <Link href="/JPIC Guidelines & Rules.pdf" onClick={() => setNavbar(!navbar)}>
                     Rules And Regulations
                   </Link>
                 </li>
-                <li className="lg:text-sm text-base bg-pink-400 mb-4 lg:mb-0 hover:bg-pink-500 rounded-lg text-black py-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400">
+                <li className="lg:text-base text-base bg-pink-400 mb-4 lg:mb-0 hover:bg-pink-500 rounded-lg text-black py-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400">
                   <Link href="/RegisterNow" onClick={() => setNavbar(!navbar)}>
                     Register Now!
                   </Link>
