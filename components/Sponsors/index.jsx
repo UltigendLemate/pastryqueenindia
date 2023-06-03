@@ -10,16 +10,16 @@ export default function Sponsors() {
     const [showModal3, setShowModal3] = React.useState(false);
     return (
         <div className='bg-white text-black flex items-center flex-col'>
-            <h1 className='font-ProzaLibre text-5xl md:text-7xl text-pink-500'>SPONSORS</h1>
-            <div className={`flex flex-col lg:flex-row bg-pink-300/80 shadow-2xl backdrop-blur-3xl rounded-lg px-4 py-6 items-center justify-center w-fit m-4 ${showModal1 ? "md:h-screen h-fit" : ""}`}>
-                <div className='rounded-lg mx-4'>
-                    <Image alt='' src={Trial} width={180} height={180} />
-                </div>
+            <h1 className='font-ProzaLibre text-5xl md:text-7xl text-pink-600 mb-4'>SPONSORS</h1>
+            <div className={`flex flex-col lg:flex-row shadow-2xl backdrop-blur-3xl rounded-lg px-4 py-6 items-center justify-center w-fit m-y4 lg:mx-16 mx-6 ${showModal1 ? "md:h-screen h-fit" : ""}`}>
+            <div class='rounded-lg mx-4 flex justify-center items-center'>
+                        <Image alt='' src={Trial} width={1440} height={1440} class='max-w-[48%] md:max-w-[56%] lg:max-w-[100%]' />
+                    </div>
                 <div className='flex flex-col lg:justify-start justify-center mx-4'>
-                    <div className='text-3xl text-pink-600 font-Lustria font-semibold lg:mb-2 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY</div>
-                    <div className='text-lg font-Quattrocento'>
+                    <div className='lg:text-5xl text-4xl text-pink-600 font-Lustria font-semibold lg:mb-8 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY</div>
+                    <div className='text-xl font-Quattrocento'>
                         Calling all pastry enthusiasts! The ultimate pastry competition awaits you! Show off your culinary skills and create mouthwatering masterpieces that will leave taste buds dancing. From delectable cakes to delicate pastries, bring your A-game and win the title of Pastry Champion. Join us on [date] at [venue] and let your creativity shine. Register now and let the baking battle begin
-                        <button className='text-white font-semibold ml-2' onClick={() => setShowModal1(true)}>Read More</button>
+                        <button className='text-pink-600 ml-2' onClick={() => setShowModal1(true)}>Read More</button>
                         {showModal1 ? (
                             <>
                                 <div
@@ -78,16 +78,17 @@ export default function Sponsors() {
                     </div>
                 </div>
             </div>
-            <div className={`flex flex-col ${showModal2 || showModal3 ? "lg:flex-col" : "lg:flex-row"} bg-white h-auto w-auto mx-4 my-6 items-center`}>
-                <div className={`flex flex-col lg:flex-row bg-pink-300/80 shadow-2xl backdrop-blur-3xl rounded-lg px-4 py-6 items-center justify-center w-full rounded-lgm m-4 ${showModal2 ? "h-screen w-full " : "basis-1/2"}`}>
-                    <div className='rounded-lg mx-4'>
-                        <Image alt='' src={Trial} width={130} height={130} />
+            <div className={`flex flex-col ${showModal2 || showModal3 ? "lg:flex-col" : "lg:flex-row"} bg-white h-auto w-auto lg:mx-16 mx-8 my-6 items-center`}>
+                <div className={`flex flex-col lg:flex-row shadow-2xl backdrop-blur-3xl rounded-lg px-4 py-6 items-center justify-center w-full rounded-lgm m-4 ${showModal2 ? "h-screen w-full" : "basis-1/2"}`}>
+                    <div class='rounded-lg mx-4 flex justify-center items-center'>
+                        <Image alt='' src={Trial} width={720} height={720} class='max-w-[36%] lg:max-w-[100%]' />
                     </div>
+
                     <div className='flex flex-col lg:justify-start justify-center mx-4'>
                         <div className='text-xl text-pink-600 font-Lustria font-semibold lg:mb-2 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY</div>
                         <div className='text-base font-Quattrocento'>
                             Calling all pastry enthusiasts! The ultimate pastry competition awaits you! Show off your culinary skills and create mouthwatering masterpieces that will leave taste buds dancing.
-                            <button className='text-white font-semibold ml-2' onClick={() => setShowModal2(true)}>Read More</button>
+                            <button className='text-pink-600 ml-2' onClick={() => setShowModal2(true)}>Read More</button>
                             {showModal2 ? (
                                 <>
                                     <div
@@ -138,15 +139,15 @@ export default function Sponsors() {
                         </div>
                     </div>
                 </div>
-                <div className={`flex flex-col lg:flex-row bg-pink-300/80 shadow-2xl backdrop-blur-3xl rounded-lg px-4 py-6 items-center justify-center w-full rounded-lgm m-4 ${showModal3 ? "h-screen w-full" : "basis-1/2"}`}>
-                    <div className='rounded-lg mx-4'>
-                        <Image alt='' src={Trial} width={130} height={130} />
+                <div className={`flex flex-col lg:flex-row shadow-2xl backdrop-blur-3xl rounded-lg px-4 py-6 items-center justify-center w-full rounded-lgm m-4 ${showModal3 ? "h-screen w-full" : "basis-1/2"}`}>
+                <div class='rounded-lg mx-4 flex justify-center items-center'>
+                        <Image alt='' src={Trial} width={720} height={720} class='max-w-[36%] lg:max-w-[100%]' />
                     </div>
                     <div className='flex flex-col lg:justify-start justify-center mx-4'>
                         <div className='text-xl text-pink-600 font-Lustria font-semibold lg:mb-2 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY</div>
                         <div className='text-base font-Quattrocento'>
                             Calling all pastry enthusiasts! The ultimate pastry competition awaits you! Show off your culinary skills and create mouthwatering masterpieces that will leave taste buds dancing.
-                            <button className='text-white font-semibold ml-2' onClick={() => setShowModal3(true)}>Read More</button>
+                            <button className='text-pink-600 ml-2' onClick={() => setShowModal3(true)}>Read More</button>
                             {showModal3 ? (
                                 <>
                                     <div
