@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap text-left lg:text-left">
           <div className="w-full lg:w-6/12 px-4">
-            <h1 className='special-font text-[3.7rem] text-4xl bg-black mb-6 text-primary'>PASTRY EVENT</h1>
+            <h1 className='special-font text-[3.7rem] text-4xl bg-black mb-6 -z-10 text-primary'>PASTRY EVENT</h1>
             <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
               Sweeten your senses, indulge in mastery!
               Join us for a delectable pastry showdown!
@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
           <div className="w-full lg:w-6/12 px-4">
             <div className="flex flex-wrap items-top mb-6">
-              <div className="w-full lg:w-4/12 px-4 ml-auto my-4">
+              <div className="w-full lg:w-4/12 px-4 ml-auto my-4 lg:my-0">
                 <span className="block uppercase text-blueGray-500 text-sm mb-2 font-bold">Useful Links</span>
                 <ul className="list-unstyled">
                   <li>
