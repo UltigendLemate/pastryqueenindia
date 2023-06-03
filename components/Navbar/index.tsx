@@ -15,9 +15,9 @@ const index = () => {
       <nav className="w-full fixed top-0 left-0 right-0 z-50 bg-white">
         <div className="justify-between px-4 mx-auto width-screen lg:items-center lg:flex">
           <div>
-            <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
+            <div className="flex items-center justify-between py-3  lg:block">
               <Link href="/">
-                <Image src={Logo} alt='' width={50} height={60} />
+                <Image src={Logo} alt='' width={1080} height={1080} className='w-24 h-24' />
               </Link>
               <div className="lg:hidden">
                 <button
