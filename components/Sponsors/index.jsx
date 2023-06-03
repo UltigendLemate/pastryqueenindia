@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image"
-import Trial from "../../public/trial.png"
+import Trial from "../../public/banner.jpeg"
 import Data from "./Data"
 
 
@@ -11,9 +11,11 @@ export default function Sponsors() {
     return (
         <div className='bg-white text-black flex items-center flex-col'>
             <h1 className='font-ProzaLibre text-5xl md:text-7xl text-pink-600 mb-4'>SPONSORS</h1>
+
+            {/* diamond sponsor  */}
             <div className={`flex flex-col lg:flex-row shadow-2xl backdrop-blur-3xl rounded-lg px-4 py-6 items-center justify-center w-fit m-y4 lg:mx-16 mx-6 ${showModal1 ? "md:h-screen h-fit" : ""}`}>
-            <div class='rounded-lg mx-4 flex justify-center items-center'>
-                        <Image alt='' src={Trial} width={1440} height={1440} class='max-w-[48%] md:max-w-[56%] lg:max-w-[100%]' />
+            <div  className='rounded-lg mx-4 flex justify-center items-center'>
+                        <Image alt='' src={Trial} width={1440} height={1440}  className='max-w-[48%] md:max-w-[56%] lg:max-w-[100%]' />
                     </div>
                 <div className='flex flex-col lg:justify-start justify-center mx-4'>
                     <div className='lg:text-5xl text-4xl text-pink-600 font-Lustria font-semibold lg:mb-8 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY</div>
@@ -78,14 +80,17 @@ export default function Sponsors() {
                     </div>
                 </div>
             </div>
-            <div className={`flex flex-col ${showModal2 || showModal3 ? "lg:flex-col" : "lg:flex-row"} bg-white h-auto w-auto lg:mx-16 mx-8 my-6 items-center`}>
+
+
+            {/* plat sponsor  */}
+            <div className={`flex  flex-col ${showModal2 || showModal3 ? "lg:flex-col" : "lg:flex-row"} bg-white h-auto w-auto lg:mx-16 mx-8 my-6 items-center`}>
                 <div className={`flex flex-col lg:flex-row shadow-2xl backdrop-blur-3xl rounded-lg px-4 py-6 items-center justify-center w-full rounded-lgm m-4 ${showModal2 ? "h-screen w-full" : "basis-1/2"}`}>
-                    <div class='rounded-lg mx-4 flex justify-center items-center'>
-                        <Image alt='' src={Trial} width={720} height={720} class='max-w-[36%] lg:max-w-[100%]' />
+                    <div className='rounded-lg mx-4 flex justify-center items-center'>
+                        <Image alt='' src={Trial} width={720} height={720} className='max-w-[36%] lg:max-w-[100%]' />
                     </div>
 
                     <div className='flex flex-col lg:justify-start justify-center mx-4'>
-                        <div className='text-xl text-pink-600 font-Lustria font-semibold lg:mb-2 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY</div>
+                        <div className='text-xl text-pink-600 font-Lustria font-semibold lg:mb-2 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY1</div>
                         <div className='text-base font-Quattrocento'>
                             Calling all pastry enthusiasts! The ultimate pastry competition awaits you! Show off your culinary skills and create mouthwatering masterpieces that will leave taste buds dancing.
                             <button className='text-pink-600 ml-2' onClick={() => setShowModal2(true)}>Read More</button>
@@ -140,11 +145,11 @@ export default function Sponsors() {
                     </div>
                 </div>
                 <div className={`flex flex-col lg:flex-row shadow-2xl backdrop-blur-3xl rounded-lg px-4 py-6 items-center justify-center w-full rounded-lgm m-4 ${showModal3 ? "h-screen w-full" : "basis-1/2"}`}>
-                <div class='rounded-lg mx-4 flex justify-center items-center'>
-                        <Image alt='' src={Trial} width={720} height={720} class='max-w-[36%] lg:max-w-[100%]' />
+                <div  className='rounded-lg mx-4 flex justify-center items-center'>
+                        <Image alt='' src={Trial} width={720} height={720}  className='max-w-[36%] lg:max-w-[100%]' />
                     </div>
                     <div className='flex flex-col lg:justify-start justify-center mx-4'>
-                        <div className='text-xl text-pink-600 font-Lustria font-semibold lg:mb-2 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY</div>
+                        <div className='text-xl text-pink-600 font-Lustria font-semibold lg:mb-2 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY2</div>
                         <div className='text-base font-Quattrocento'>
                             Calling all pastry enthusiasts! The ultimate pastry competition awaits you! Show off your culinary skills and create mouthwatering masterpieces that will leave taste buds dancing.
                             <button className='text-pink-600 ml-2' onClick={() => setShowModal3(true)}>Read More</button>
@@ -199,7 +204,13 @@ export default function Sponsors() {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-row bg-white h-auto w-fit mx-4 my-6 flex-wrap items-center align-middle justify-center'>
+
+
+
+
+
+            {/* gold silver sponsors  */}
+            <div className='flex  flex-row bg-white h-auto w-fit mx-4 my-6 flex-wrap items-center align-middle justify-center'>
                 {Data.map((Part, i) => (
                     <div key={i}>
                         <div className='flex flex-col items-center align-middle justify-center my-4 mx-12'>
