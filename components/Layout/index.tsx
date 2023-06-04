@@ -12,7 +12,7 @@ const Layout = (props: Props) => {
   return (
     <>
       <Navbar />
-      <div className={`  grid gap-10 justify-center items-center bg-white text-black ${props.className}`}>{props.children}</div>
+      <div className={`  grid gap-20 justify-center items-center bg-white text-black ${props.className}`}>{props.children}</div>
       
       <Footer />
     </>

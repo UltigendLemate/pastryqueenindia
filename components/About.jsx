@@ -15,7 +15,13 @@ export default function About() {
         represent the future of the international pastry-making sector.
 
         It is the Pastry event with a vital role to play in achieving a career at the highest of technical standards.
+
+        <Link href="/RegisterNow" className="lg:text-base text-base my-4 lg:mb-0  rounded-lg text-primary p-2 md:m-3 lg:px-1 text-center   font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 underline lg:hover:text-black transition-all duration-400">
+        Know More!
+      </Link>
       </p>
+
+     
 
       <div className='grid md:grid-cols-2 gap-10 py-10'>
         <img src="/pics/IMG_4232.webp" alt="" className='rounded-md' />
@@ -23,9 +29,7 @@ export default function About() {
 
       </div>
 
-      <Link href="/RegisterNow" className="lg:text-base text-base bg-pink-400 my-4 lg:mb-0 hover:bg-pink-500 rounded-lg text-black p-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400">
-        Know More!
-      </Link>
+      
 
     </section >
   )

@@ -10,7 +10,7 @@ export default function Sponsors() {
     const [showModal3, setShowModal3] = React.useState(false);
     return (
         <div className='bg-white text-black flex items-center flex-col'>
-            <h1 className='font-ProzaLibre text-5xl md:text-7xl text-pink-600 mb-4'>SPONSORS</h1>
+            <h1 className='font-ProzaLibre text-5xl md:text-7xl text-pink-600 mb-4 special-font' >SPONSORS</h1>
             {/* diamond sponsor  */}
             <div className={`flex flex-col ${showModal1 ? "lg:flex-col" : "lg:flex-row"}`}>
                 <div className={`flex flex-col lg:flex-row shadow-2xl backdrop-blur-3xl rounded-lg px-2 py-6 basis-3/5 items-center justify-center mx-6 w-fit h-fit my-auto ${showModal1 ? "md:h-screen h-fit" : ""}`}>
@@ -25,10 +25,10 @@ export default function Sponsors() {
                             {/* pop up in the read more  */}
                             {showModal1 ? (
                                 <>
-                                 <div
-                                            className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
-                                        >
-                                    {/* <div
+                                    <div
+                                        className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                                    >
+                                        {/* <div
                                         className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none mt-4"
                                     > */}
                                         <div className="relative my-6 mx-auto w-fit">
@@ -96,7 +96,7 @@ export default function Sponsors() {
                         <div className='flex flex-col lg:justify-start justify-center mx-4'>
                             <div className='text-lg text-pink-600 font-Lustria font-semibold lg:mb-2 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY1</div>
                             <div className='text-sm font-Quattrocento'>
-                                Calling all pastry enthusiasts! The ultimate pastry competition awaits you! Show off your culinary 
+                                Calling all pastry enthusiasts! The ultimate pastry competition awaits you! Show off your culinary
                                 <button className='text-pink-600 ml-2' onClick={() => setShowModal2(true)}>Read More</button>
                                 {showModal2 ? (
                                     <>
@@ -216,11 +216,11 @@ export default function Sponsors() {
 
 
             {/* gold silver sponsors  */}
-            <div className='flex  flex-row bg-white h-auto w-fit mx-4 my-6 flex-wrap items-center align-middle justify-center'>
+            <div className='grid grid-cols-6 gap-7 px-10  bg-white h-auto justify-center w-full my-6 items-center align-middle'>
                 {Data.map((Part, i) => (
                     <div key={i}>
-                        <div className='flex flex-col items-center align-middle justify-center my-4 mx-12'>
-                            <Image alt='' src={Trial} width={100} height={100} />
+                        <div className='flex flex-col items-center align-middle justify-center '>
+                            <Image alt='' src={Trial} width={1000} height={1000} />
                             <h1 className='my-1'>QUINCY</h1>
                         </div>
                     </div>

@@ -16,11 +16,11 @@ export default function Home() {
 
       {/* className = text-primary or bg-primary will work. this is primary pink */}
       <Hero />
+      <About />
       <Sponsors />
 
 
 
-      <About />
       <Contact />
     </Layout>
   )
