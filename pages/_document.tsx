@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import Navbar from "../components/Navbar/index"
 
 export default function Document() {
   return (
@@ -11,6 +12,7 @@ export default function Document() {
       <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Quattrocento&display=swap" rel="stylesheet"></link>
       <link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet"></link>
       <body>
+        <Navbar />
         <Main />
         <NextScript />
       </body>
