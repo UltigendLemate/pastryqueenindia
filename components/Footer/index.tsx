@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap text-left lg:text-left">
           <div className="w-full lg:w-6/12 px-4">
-            <h1 className='special-font text-[3.7rem] text-4xl bg-black mb-6 -z-10 text-primary'>PASTRY EVENT</h1>
+            <h1 className='special-font text-[3.7rem] text-4xl bg-black mb-6 text-primary'>PASTRY EVENT</h1>
             <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
               Sweeten your senses, indulge in mastery!
               Join us for a delectable pastry showdown!
@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="w-full lg:w-6/12 px-4">
             <div className="flex flex-wrap flex-col md:flex-row items-top mb-6">
               <div className="my-4 lg:my-0 md:mx-auto">
-                <span className="block uppercase text-blueGray-500 text-lg mb-2 font-bold text-pink-500 ">Useful Links</span>
+                <span className="block uppercase text-blueGray-500 text-lg mb-2 font-bold text-primary ">Useful Links</span>
                 <ul className="list-unstyled">
                   <li>
                     <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">About Us</a>
@@ -32,7 +32,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="my-4 lg:my-0 md:mx-auto">
-                <span className="block uppercase text-blueGray-500 text-lg font-bold text-pink-500 mb-2">Other Resources</span>
+                <span className="block uppercase text-blueGray-500 text-lg font-bold text-primary mb-2">Other Resources</span>
                 <ul className="list-unstyled">
                   <li>
                     <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">MIT License</a>
