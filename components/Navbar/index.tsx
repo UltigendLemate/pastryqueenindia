@@ -8,7 +8,7 @@ import Logo from "../../public/logo.jpg"
 type Props = {}
 import Data from "./Data"
 
-const index = () => {
+const Kndex = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
@@ -70,4 +70,4 @@ const index = () => {
   )
 }
 
-export default index 
+export default Kndex 
