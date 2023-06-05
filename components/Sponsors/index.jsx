@@ -13,7 +13,7 @@ export default function Sponsors() {
             <h1 className='font-ProzaLibre text-5xl md:text-7xl text-pink-600 mb-4 special-font' >SPONSORS</h1>
             {/* diamond sponsor  */}
             <div className={`flex flex-col ${showModal1 ? "lg:flex-col" : "lg:flex-row"}`}>
-                <div className={`flex flex-col lg:flex-row shadow-2xl backdrop-blur-3xl rounded-lg px-2 py-6 basis-3/5 items-center justify-center mx-6 w-fit h-fit my-auto ${showModal1 ? "md:h-screen h-fit" : ""}`}>
+                <div className={`flex flex-col lg:flex-row shadow-xl backdrop-blur-3xl rounded-lg px-2 py-6 basis-3/5 items-center justify-center mx-6 w-fit h-fit my-auto ${showModal1 ? "md:h-screen h-fit" : ""}`}>
                     <div className='rounded-lg mx-4 flex justify-center items-center max-w-4/5'>
                         <Image alt='' src={Trial} width={2400} height={2400} className='' />
                     </div>
@@ -88,9 +88,9 @@ export default function Sponsors() {
 
                 {/* plat sponsor  */}
                 <div className={`flex basis-2/5 flex-col ${showModal2 || showModal3 ? "lg:flex-col" : "lg:flex-col"} bg-white h-auto w-auto mx-6 items-center`}>
-                    <div className={`flex flex-col lg:flex-row shadow-2xl backdrop-blur-3xl rounded-lg px-4 py-4 items-center justify-center w-full m-4 ${showModal2 ? "h-screen w-full" : "basis-1/2"}`}>
+                    <div className={`flex flex-col lg:flex-row shadow-xl backdrop-blur-3xl rounded-lg px-4 py-4 items-center justify-center w-full m-4 ${showModal2 ? "h-screen w-full" : "basis-1/2"}`}>
                         <div className='rounded-lg mx-4 flex justify-center items-center'>
-                            <Image alt='' src={Trial} width={420} height={420} className='max-w-[36%] lg:max-w-[100%]' />
+                            <Image alt='' src={Trial} width={420} height={420} className='max-w-[100%]' />
                         </div>
 
                         <div className='flex flex-col lg:justify-start justify-center mx-4'>
@@ -150,7 +150,7 @@ export default function Sponsors() {
                     </div>
                     <div className={`flex flex-col lg:flex-row shadow-2xl backdrop-blur-3xl rounded-lg px-4 py-3 items-center justify-center w-full rounded-lgm m-4 ${showModal3 ? "h-screen w-full" : "basis-1/2"}`}>
                         <div className='rounded-lg mx-4 flex justify-center items-center'>
-                            <Image alt='' src={Trial} width={420} height={420} className='max-w-[36%] lg:max-w-[100%]' />
+                            <Image alt='' src={Trial} width={420} height={420} className='max-w-[100%]' />
                         </div>
                         <div className='flex flex-col lg:justify-start justify-center mx-4'>
                             <div className='text-lg text-pink-600 font-Lustria font-semibold lg:mb-2 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY2</div>
@@ -216,12 +216,12 @@ export default function Sponsors() {
 
 
             {/* gold silver sponsors  */}
-            <div className='grid grid-cols-6 gap-7 px-10  bg-white h-auto justify-center w-full my-6 items-center align-middle'>
+            <div className='grid grid-cols-2 md:grid-cols-6 gap-7 px-10  bg-white h-auto justify-center w-full my-6 items-center align-middle'>
                 {Data.map((Part, i) => (
                     <div key={i}>
-                        <div className='flex flex-col items-center align-middle justify-center '>
-                            <Image alt='' src={Trial} width={1000} height={1000} />
-                            <h1 className='my-1'>QUINCY</h1>
+                        <div className='flex flex-col items-center  align-middle justify-center '>
+                            <Image alt='' src={Trial} width={1000} height={1000} className='shadow-xl' />
+                            <h1 className='my-1 text-xl'>QUINCY</h1>
                         </div>
                     </div>
                 ))}

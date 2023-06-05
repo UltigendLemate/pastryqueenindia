@@ -16,7 +16,7 @@ export default function About() {
 
         It is the Pastry event with a vital role to play in achieving a career at the highest of technical standards.
 
-        <Link href="/RegisterNow" className="lg:text-base text-base my-4 lg:mb-0  rounded-lg text-primary p-2 md:m-3 lg:px-1 text-center   font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 underline lg:hover:text-black transition-all duration-400">
+        <Link href="/RegisterNow" className="lg:text-base text-base  lg:mb-0  rounded-lg text-primary p-2 md:m-3 lg:px-1 font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 underline lg:hover:text-black transition-all duration-400 block md:inline">
         Know More!
       </Link>
       </p>
@@ -25,7 +25,7 @@ export default function About() {
 
       <div className='grid md:grid-cols-2 gap-10 py-10'>
         <img src="/pics/IMG_4232.webp" alt="" className='rounded-md' />
-        <img src="/pics/IMG_4439.webp" alt="" className='rounded-md' />
+        <img src="/pics/IMG_4439.webp" alt="" className='rounded-md hidden md:block' />
 
       </div>
 

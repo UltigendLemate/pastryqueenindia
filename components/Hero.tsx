@@ -5,7 +5,7 @@ type Props = {}
 
 const Hero = (props: Props) => {
   return (
-    <div className=' w-[98vw] relative  bg-white min-h-[40vh] md:min-h-[90vh] text-primary mainbg grid  justify-center items-center'>
+    <div className=' w-[100vw] md:w-[98.5vw]   relative mt-28  bg-white min-h-[40vh] md:min-h-[90vh] text-primary mainbg grid  justify-center items-center'>
       {/* <Image src={'/bg_main.png'} fill={true}/> */}
       <div className='absolute w-full h-full bg-black/60 z-0'></div>
       <div className='z-20'>
