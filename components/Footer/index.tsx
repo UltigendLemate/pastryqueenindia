@@ -13,9 +13,9 @@ const Footer = () => {
             </h5>
           </div>
           <div className="w-full lg:w-6/12 px-4">
-            <div className="flex flex-wrap items-top mb-6">
-              <div className="w-full lg:w-4/12 px-4 ml-auto my-4 lg:my-0">
-                <span className="block uppercase text-blueGray-500 text-sm mb-2 font-bold">Useful Links</span>
+            <div className="flex flex-wrap flex-col md:flex-row items-top mb-6">
+              <div className="my-4 lg:my-0 md:mx-auto">
+                <span className="block uppercase text-blueGray-500 text-lg mb-2 font-bold text-pink-500 ">Useful Links</span>
                 <ul className="list-unstyled">
                   <li>
                     <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">About Us</a>
@@ -31,8 +31,8 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="w-full lg:w-4/12 px-4">
-                <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+              <div className="my-4 lg:my-0 md:mx-auto">
+                <span className="block uppercase text-blueGray-500 text-lg font-bold text-pink-500 mb-2">Other Resources</span>
                 <ul className="list-unstyled">
                   <li>
                     <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">MIT License</a>
