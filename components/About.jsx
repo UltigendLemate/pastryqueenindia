@@ -4,7 +4,7 @@ import React from 'react'
 export default function About() {
   return (
     <section className='bg-white text-black flex items-center flex-col max-w-screen-xl mx-auto px-5 mb-10'>
-      <h1 className='font-ProzaLibre text-5xl md:text-7xl text-pink-600 mb-4 text-center special-font'>ABOUT US</h1>
+      <h1 className='font-ProzaLibre text-5xl md:text-7xl text-primary mb-4 text-center special-font'>ABOUT US</h1>
       <p className='text-md'>The objective the Junior Pastry Indian cup is to set up a training ground for large international events,
         while making it entertaining and showcasing the talents and future of younger generation pastry-chefs.
         By spotlighting them, we hope to engender a sense of belonging and valuable feelings of goodwill,
@@ -16,7 +16,7 @@ export default function About() {
 
         It is the Pastry event with a vital role to play in achieving a career at the highest of technical standards.
 
-        <Link href="/RegisterNow" className="lg:text-base text-base  lg:mb-0  rounded-lg text-primary p-2 md:m-3 lg:px-1 font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 underline lg:hover:text-black transition-all duration-400 block md:inline">
+        <Link href="/RegisterNow" className="lg:text-base text-base  lg:mb-0  rounded-lg text-primary p-2 md:m-3 lg:px-1 font-semibold hover:cursor-pointer decoration-primary underline-offset-8 underline lg:hover:text-black transition-all duration-400 block md:inline">
         Know More!
       </Link>
       </p>

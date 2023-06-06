@@ -26,6 +26,18 @@
   }
 }
 
+.customBackground {
+  background-image: url('/pics/IMG_4612.webp');
+  /* background-size:50%;*/
+  /* background-size: cover !important;
+  background-position:  center center; 
+  background-repeat: no-repeat ;
+  @apply bg-opacity-5 backdrop-blur-3xl;
+  --tw-backdrop-blur: blur(40px) !important;
+  backdrop-filter: blur(10px) !important; */
+
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom,

@@ -10,7 +10,7 @@ export default function Sponsors() {
     const [showModal3, setShowModal3] = React.useState(false);
     return (
         <div className='bg-white text-black flex items-center flex-col'>
-            <h1 className='font-ProzaLibre text-5xl md:text-7xl text-pink-600 mb-4 special-font' >SPONSORS</h1>
+            <h1 className=' text-5xl md:text-7xl text-pink-600 mb-4 special-font' >SPONSORS</h1>
             {/* diamond sponsor  */}
             <div className={`flex flex-col ${showModal1 ? "lg:flex-col" : "lg:flex-row"}`}>
                 <div className={`flex flex-col lg:flex-row shadow-xl backdrop-blur-3xl rounded-lg px-2 py-6 basis-3/5 items-center justify-center mx-6 w-fit h-fit my-auto ${showModal1 ? "md:h-screen h-fit" : ""}`}>

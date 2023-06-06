@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <div className=' mx-auto px-3 mb-10'>
 
-            <h1 className='font-ProzaLibre  text-5xl md:text-7xl text-pink-600  text-center special-font'>CONTACT US</h1>
+            <h1 className='font-ProzaLibre  text-5xl md:text-7xl text-primary  text-center special-font'>CONTACT US</h1>
 
             <section className="bg-white py-5 overflow-hidden relative z-10 mt-7">
                 <div className="container mx-auto max-w-screen-xl ">
@@ -85,7 +85,7 @@ export default function Contact() {
                                         <button
                                             type="submit"
                                             className="
-                                            lg:text-base text-base w-full bg-pink-400 mb-2 lg:mb-0 hover:bg-pink-500 rounded-lg text-black p-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-40
+                                            lg:text-base text-base w-full bg-primary mb-2 lg:mb-0 hover:bg-pink-700 rounded-lg text-black p-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-40
                         "
                                         >
                                             Send Message
@@ -1238,7 +1238,7 @@ export default function Contact() {
                             </div>
                         </div>
 
-                        <div className="w-full lg:w-1/2 xl:w-[43%]   px-4">
+                        <div className="w-full lg:w-1/2 xl:w-[43%]    md:px-4">
                             <div className=" mb-12 lg:mb-0">
                               
                                 <p className="text-base md:text-lg text-body-color leading-relaxed mb-9 text-justify">

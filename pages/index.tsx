@@ -5,6 +5,8 @@ import Hero from '@/components/Hero'
 import About from '@/components/About.jsx'
 import Contact from '@/components/Contact.jsx'
 import Sponsors from '@/components/Sponsors'
+import Organizers from '@/components/Organizers'
+import Participants from '@/components/Participants'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,7 +19,9 @@ export default function Home() {
       {/* className = text-primary or bg-primary will work. this is primary pink */}
       <Hero />
       <About />
+      <Organizers />
       <Sponsors />
+      <Participants/>
 
 
 
