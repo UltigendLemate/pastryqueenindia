@@ -40,7 +40,7 @@ const Part = () => {
                     <div className="p-4 mb-10 md:mb-0">
                       <p className="text-3xl md:text-4xl font-semibold inline text-gray-700">{item.institute}</p>
                       <p className="mt-3 text-2xl text-gray-500 inline"> | {item.city}</p>
-                      <p className="mt-3 text-gray-500 text-left">{item.normalText} Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, et! Lorem ipsum dolor sit amet.</p>
+                      <p className="mt-3 text-gray-500 text-left">{item.normalText}</p>
                       <button
                         className="text-[#FF0080] text-base underline-offset-4 underline md:text-lg font-semibold mt-2"
                         onClick={() => item.expandedText&&handleClick(item.expandedText)}
@@ -56,14 +56,16 @@ const Part = () => {
           ))}
         </div>
         {showPopup && (
-          <div className="fixed inset-2   z-20 flex items-center overflow-y-auto justify-center bg-white bg-opacity-40">
-            <div className="bg-white rounded-lg shadow-lg p-4 md:p-6 max-w-md w-full">
-              <div className="flex justify-end">
+          <div className="fixed  w-screen h-screen top-0  z-50 flex items-center overflow-y-auto justify-center bg-white bg-opacity-5 backdrop-blur-md">
+            <div className="bg-white rounded-lg shadow-lg p-4 pt-0 md:pt-0 md:p-6 max-w-xs max-h-[300px] md:max-w-3xl md:max-h-[400px] overflow-auto relative  w-full">
+              <div className="sticky flex justify-between py-3 bg-white top-0 right-0">
+                {/* <p>{}</p> */}
+                <p className='text-xl font-semibold'>More About Us</p>
                 <button className="text-gray-600 hover:text-gray-800" onClick={closePopup}>
-                  <FaTimes className="text-primary hover:text-pink-300" />
+                  <FaTimes className="text-primary text-3xl hover:text-pink-300" />
                 </button>
               </div>
-              <p className="text-sm xl:text-sm 2xl:text-lg">{popupText}</p>
+              <p className=" xl:text-sm 2xl:text-lg">{popupText} Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus alias facilis tempora laudantium voluptatem odio eaque recusandae. Earum doloribus praesentium nostrum, illo a totam consectetur vero quaerat, laudantium vitae voluptates. Quam expedita, minus, at dolorum, tempora nemo tempore reiciendis doloremque officiis vitae pariatur blanditiis amet sequi alias. Officiis error explicabo consequatur placeat. Error iure sit dolorum, mollitia aspernatur laudantium veritatis repellendus molestiae totam exercitationem eligendi est consectetur minima quam quaerat ea aliquam repudiandae pariatur ut delectus corrupti porro impedit? Beatae, ex omnis distinctio perspiciatis laudantium tenetur minus voluptate vitae officia deserunt atque numquam assumenda culpa quia saepe velit ducimus officiis!</p>
             </div>
           </div>
         )}
