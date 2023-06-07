@@ -17,8 +17,6 @@ const participantCard = () => {
             </div>
           </div>
         </div>
-        
-        
       </div>
     </div>
   )

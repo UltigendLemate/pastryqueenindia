@@ -55,7 +55,7 @@ const Part = () => {
           ))}
         </div>
         {showPopup && (
-          <div className="fixed  w-screen h-screen top-0  z-50 flex items-center overflow-y-auto justify-center bg-white bg-opacity-5 backdrop-blur-md">
+          <div className="fixed w-screen h-screen top-0  z-50 flex items-center overflow-y-auto justify-center bg-white bg-opacity-5 backdrop-blur-md">
             <div className="bg-white rounded-lg shadow-lg p-4 pt-0 md:pt-0 md:p-6 max-w-xs max-h-[300px] md:max-w-3xl md:max-h-[400px] overflow-auto relative  w-full">
               <div className="sticky flex justify-between py-3 bg-white top-0 right-0">
                 {/* <p>{}</p> */}
@@ -64,7 +64,7 @@ const Part = () => {
                   <FaTimes className="text-primary text-3xl hover:text-pink-300" />
                 </button>
               </div>
-              <p className=" xl:text-sm 2xl:text-lg">{popupText} Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus alias facilis tempora laudantium voluptatem odio eaque recusandae. Earum doloribus praesentium nostrum, illo a totam consectetur vero quaerat, laudantium vitae voluptates. Quam expedita, minus, at dolorum, tempora nemo tempore reiciendis doloremque officiis vitae pariatur blanditiis amet sequi alias. Officiis error explicabo consequatur placeat. Error iure sit dolorum, mollitia aspernatur laudantium veritatis repellendus molestiae totam exercitationem eligendi est consectetur minima quam quaerat ea aliquam repudiandae pariatur ut delectus corrupti porro impedit? Beatae, ex omnis distinctio perspiciatis laudantium tenetur minus voluptate vitae officia deserunt atque numquam assumenda culpa quia saepe velit ducimus officiis!</p>
+              <p className="xl:text-sm 2xl:text-lg">{popupText} Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus alias facilis tempora laudantium voluptatem odio eaque recusandae. Earum doloribus praesentium nostrum, illo a totam consectetur vero quaerat, laudantium vitae voluptates. Quam expedita, minus, at dolorum, tempora nemo tempore reiciendis doloremque officiis vitae pariatur blanditiis amet sequi alias. Officiis error explicabo consequatur placeat. Error iure sit dolorum, mollitia aspernatur laudantium veritatis repellendus molestiae totam exercitationem eligendi est consectetur minima quam quaerat ea aliquam repudiandae pariatur ut delectus corrupti porro impedit? Beatae, ex omnis distinctio perspiciatis laudantium tenetur minus voluptate vitae officia deserunt atque numquam assumenda culpa quia saepe velit ducimus officiis!</p>
             </div>
           </div>
         )}
