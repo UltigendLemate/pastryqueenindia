@@ -66,18 +66,21 @@ const Part = () => {
             </div>
            {showPopup && (
               <div className="fixed inset-0 flex items-center justify-center bg-white bg-opacity-20">
-                <div className="bg-white rounded-lg shadow-lg p-4 md:p-6 max-w-md w-full">
-                  <div className="flex justify-end">
-                    <button className="text-gray-600 hover:text-gray-800" onClick={closePopup}>
-                      <FaTimes className='text-primary hover:text-pink-300' />
-                    </button>
-                  </div>
-                  <p className="text-base xl:text-sm 2xl:text-[19px]">
-                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit facere placeat sequi laborum asperiores itaque explicabo, a nihil, et molestias labore dolor corrupti? Consequuntur aliquid cumque, saepe repellat odit dicta corporis ab necessitatibus itaque autem iusto, placeat corrupti sed magnam, quasi non! Reprehenderit perferendis vel voluptatum consequatur qui omnis libero.
-                  </p>
-                  
+              <div className="bg-white rounded-lg shadow-lg p-4 md:p-6 max-w-md w-full">
+                <div className="flex justify-end">
+                  <button className="text-gray-600 hover:text-gray-800" onClick={closePopup}>
+                    <FaTimes className="text-primary hover:text-pink-300" />
+                  </button>
                 </div>
+                <p className="text-base xl:text-sm 2xl:text-lg">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit facere placeat sequi laborum asperiores itaque
+                  explicabo, a nihil, et molestias labore dolor corrupti? Consequuntur aliquid cumque, saepe repellat odit dicta
+                  corporis ab necessitatibus itaque autem iusto, placeat corrupti sed magnam, quasi non! Reprehenderit perferendis
+                  vel voluptatum consequatur qui omnis libero.
+                </p>
               </div>
+            </div>
+            
             )}
       
            </div>
