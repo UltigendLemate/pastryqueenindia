@@ -23,7 +23,6 @@ const Part = () => {
         <div className="mb-12 space-y-2 text-center">
           <h2 className="text-5xl md:text-7xl text-primary mb-4 special-font">Participants</h2>
         </div>
-
         <div className="grid md:gap-3 grid-cols-3 xl:grid-cols-5">
           {data.map((item) => (
             <div key={item.id} className={`${item.id % 4 === 0 ? 'col-span-3 md:col-span-2' : ''}`}>
