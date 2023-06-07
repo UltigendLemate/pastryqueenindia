@@ -85,7 +85,7 @@ export default function Sponsors() {
                                     <div className="bg-white rounded-lg shadow-lg p-4 md:p-6 w-fit h-fit pt-8">
                                         <div className="flex justify-end">
                                             <button className="text-gray-600 hover:text-gray-800" onClick={() => setShowModal1(false)}>
-                                                <FaTimes className="text-primary hover:text-pink-300 lg:mt-6 mt-[1000px] md:mt-[240px]" />
+                                                <FaTimes className="text-primary hover:text-pink-300 lg:mt-6 mt-[1000px] md:mt-[400px]" />
                                             </button>
                                         </div>
                                         <p className="text-sm md:text-base lg:text-lg">
@@ -177,7 +177,7 @@ export default function Sponsors() {
                                         <div className="bg-white rounded-lg shadow-lg p-4 md:p-6 w-fit h-fit pt-8">
                                             <div className="flex justify-end">
                                                 <button className="text-gray-600 hover:text-gray-800" onClick={() => setShowModal2(false)}>
-                                                    <FaTimes className="text-primary hover:text-pink-300 lg:mt-6 mt-[1000px] md:mt-[240px]" />
+                                                    <FaTimes className="text-primary hover:text-pink-300 lg:mt-6 mt-[1000px] md:mt-[160px]" />
                                                 </button>
                                             </div>
                                             <p className="text-sm md:text-base lg:text-lg">
@@ -255,7 +255,7 @@ export default function Sponsors() {
                                         <div className="bg-white rounded-lg shadow-lg p-4 md:p-6 w-fit h-fit pt-8">
                                             <div className="flex justify-end">
                                                 <button className="text-gray-600 hover:text-gray-800" onClick={() => setShowModal3(false)}>
-                                                    <FaTimes className="text-primary hover:text-pink-300 lg:mt-6 mt-[1000px] md:mt-[240px]" />
+                                                    <FaTimes className="text-primary hover:text-pink-300 lg:mt-6 mt-[1000px] md:mt-[160px]" />
                                                 </button>
                                             </div>
                                             <p className="text-sm md:text-base lg:text-lg">
