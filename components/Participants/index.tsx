@@ -1,15 +1,27 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react'
+import { useInView } from 'react-intersection-observer';
+import { motion, useAnimation } from "framer-motion";
 import Image from 'next/image';
 import data from '../Participants/participants.json';
 import image1 from '../images/chef.jpg';
-
 import { FaTimes } from 'react-icons/fa';
 
 const Part = () => {
+
+  const controls = useAnimation();
+  const [ref, inView] = useInView({ threshold: 0 });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
+
   const [showPopup, setShowPopup] = useState(false);
   const [popupText, setPopupText] = useState('');
 
-  const handleClick = (text:string) => {
+  const handleClick = (text: string) => {
     setPopupText(text);
     setShowPopup(true);
   };
@@ -23,18 +35,32 @@ const Part = () => {
         <div className="mb-12 space-y-2 text-center">
           <h2 className="text-5xl md:text-7xl text-primary mb-4 special-font">Participants</h2>
         </div>
-        <div className="grid md:gap-3 grid-cols-3 xl:grid-cols-5">
+        <div className="grid md:gap-3 grid-cols-3 xl:grid-cols-5" ref={ref}>
           {data.map((item) => (
             <div key={item.id} className={`${item.id % 4 === 0 ? 'col-span-3 md:col-span-2' : ''}`}>
               {item.id % 4 !== 0 ? (
-                <div className="card relative w-full flex justify-center mx-auto">
+                <motion.div ref={ref}
+                  animate={controls}
+                  initial="hidden"
+                  transition={{ duration: 1.5 }}
+                  variants={{
+                    visible: { opacity: 1, x: 0 },
+                    hidden: { opacity: 0, x: -60 },
+                  }} className="card relative w-full flex justify-center mx-auto">
                   <Image alt="img" src={image1} className="w-full p-1 md:p-3 h-full" />
                   <p className="absolute md:bottom-5 md:left-5 md:px-4 md:py-1 bottom-1 left-1 text-sm px-1 py-px bg-primary bg-opacity-75 font-semibold md:rounded-xl rounded-tr-lg text-white">
                     {item.name}
                   </p>
-                </div>
+                </motion.div>
               ) : (
-                <div className="flex flex-col items-center col-span-3 bg-white rounded-lg">
+                <motion.div
+                  animate={controls}
+                  initial="hidden"
+                  transition={{ duration: 1.5 }}
+                  variants={{
+                    visible: { opacity: 1, x: 0 },
+                    hidden: { opacity: 0, x: 60 },
+                  }} className="flex flex-col items-center col-span-3 bg-white rounded-lg">
                   <div className="bg-white rounded-lg text-justify md:text-center xl:text-left m-auto">
                     <div className="p-4 mb-10 md:mb-0">
                       <p className="text-3xl md:text-4xl font-semibold inline text-gray-700">{item.institute}</p>
@@ -42,14 +68,14 @@ const Part = () => {
                       <p className="mt-3 text-gray-500 text-left">{item.normalText}</p>
                       <button
                         className="text-[#FF0080] text-base underline-offset-4 underline md:text-lg font-semibold mt-2"
-                        onClick={() => item.expandedText&&handleClick(item.expandedText)}
+                        onClick={() => item.expandedText && handleClick(item.expandedText)}
                         id={item.id.toString()}
                       >
                         Read More
                       </button>
                     </div>
                   </div>
-                </div>
+                </motion.div>
               )}
             </div>
           ))}
