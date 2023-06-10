@@ -1,11 +1,37 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from "next/image"
 import Trial from "../../public/banner.jpeg"
 import Data from "./Data"
 import { FaTimes } from 'react-icons/fa';
+import { useInView } from 'react-intersection-observer';
+import { motion, useAnimation } from "framer-motion";
 
 
 export default function Sponsors() {
+
+    const controls = useAnimation();
+    const [ref1, inView1] = useInView({ threshold: 0 });
+
+    useEffect(() => {
+        if (inView1) {
+            controls.start("visible");
+        }
+    }, [controls, inView1]);
+    const [ref2, inView2] = useInView({ threshold: 0 });
+
+    useEffect(() => {
+        if (inView2) {
+            controls.start("visible");
+        }
+    }, [controls, inView2]);
+    const [ref3, inView3] = useInView({ threshold: 0 });
+
+    useEffect(() => {
+        if (inView3) {
+            controls.start("visible");
+        }
+    }, [controls, inView3]);
+
     const [showModal1, setShowModal1] = React.useState(false);
     const [showModal2, setShowModal2] = React.useState(false);
     const [showModal3, setShowModal3] = React.useState(false);
@@ -13,8 +39,15 @@ export default function Sponsors() {
         <div className='bg-white text-black flex items-center flex-col'>
             <h1 className=' text-5xl md:text-7xl text-pink-600 mb-4 special-font'>SPONSORS</h1>
             {/* diamond sponsor  */}
-            <div className="flex lg:flex-row flex-col">
-                <div className={`flex flex-col lg:flex-row shadow-xl backdrop-blur-3xl rounded-lg px-2 py-6 basis-3/5 items-center justify-center mx-6 w-fit h-auto my-auto ${showModal1 ? "md:h-screen h-fit" : ""}`}>
+            <div className="flex lg:flex-row flex-col" >
+                <motion.div ref={ref1}
+                    animate={controls}
+                    initial="hidden"
+                    transition={{ duration: 1 }}
+                    variants={{
+                        visible: { opacity: 1, y: 0 },
+                        hidden: { opacity: 0, y: 60 },
+                    }} className={`flex flex-col lg:flex-row shadow-xl backdrop-blur-3xl rounded-lg px-2 py-6 basis-3/5 items-center justify-center mx-6 w-fit h-auto my-auto ${showModal1 ? "md:h-screen h-fit" : ""}`}>
                     <div className='rounded-lg mx-4 flex justify-center items-center max-w-4/5'>
                         <Image alt='' src={Trial} width={2400} height={2400} className='' />
                     </div>
@@ -25,11 +58,16 @@ export default function Sponsors() {
                             <button className='text-pink-600 ml-2' onClick={() => setShowModal1(true)}>Read More</button>
                         </div>
                     </div>
-                </div>
-
-
+                </motion.div>
                 {/* plat sponsor  */}
-                <div className={`flex basis-2/5 flex-col ${showModal2 || showModal3 ? "lg:flex-col" : "lg:flex-col"} bg-white h-auto w-auto mx-6 items-center`}>
+                <motion.div ref={ref2}
+                    animate={controls}
+                    initial="hidden"
+                    transition={{ duration: 1 }}
+                    variants={{
+                        visible: { opacity: 1, y: 0 },
+                        hidden: { opacity: 0, y: 60 },
+                    }} className={`flex basis-2/5 flex-col ${showModal2 || showModal3 ? "lg:flex-col" : "lg:flex-col"} bg-white h-auto w-auto mx-6 items-center`}>
                     <div className={`flex flex-col lg:flex-row shadow-xl backdrop-blur-3xl rounded-lg px-4 py-4 items-center justify-center w-full m-4 ${showModal2 ? "h-screen w-full" : "basis-1/2"}`}>
                         <div className='rounded-lg mx-4 flex justify-center items-center'>
                             <Image alt='' src={Trial} width={420} height={420} className='max-w-[100%]' />
@@ -55,10 +93,18 @@ export default function Sponsors() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
             {/* gold silver sponsors  */}
-            <div className='grid grid-cols-2 md:grid-cols-6 gap-7 px-10  bg-white h-auto justify-center w-full my-6 items-center align-middle'>
+            <motion.div
+                ref={ref3}
+                animate={controls}
+                initial="hidden"
+                transition={{ duration: 1 }}
+                variants={{
+                    visible: { opacity: 1, y: 0 },
+                    hidden: { opacity: 0, y: 60 },
+                }} className='grid grid-cols-2 md:grid-cols-6 gap-7 px-10  bg-white h-auto justify-center w-full my-6 items-center align-middle'>
                 {Data.map((Part, i) => (
                     <div key={i}>
                         <div className='flex flex-col items-center  align-middle justify-center '>
@@ -67,7 +113,7 @@ export default function Sponsors() {
                         </div>
                     </div>
                 ))}
-            </div>
+            </motion.div>
             {/* pop up in the read more  */}
             {showModal1 && (
                 <div className="fixed w-screen h-screen top-0  z-50 flex items-center overflow-y-auto justify-center bg-white bg-opacity-5 backdrop-blur-md">

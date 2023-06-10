@@ -18,10 +18,10 @@ export default function About() {
       <motion.p
         animate={controls}
         initial="hidden"
-        transition={{ duration: 0.4}}
+        transition={{ duration: 0.6 }}
         variants={{
           visible: { opacity: 1, y: 0 },
-          hidden: { opacity: 0, y: 100 },
+          hidden: { opacity: 0, y: 60 },
         }} className='text-md'>The objective the Junior Pastry Indian cup is to set up a training ground for large international events,
         while making it entertaining and showcasing the talents and future of younger generation pastry-chefs.
         By spotlighting them, we hope to engender a sense of belonging and valuable feelings of goodwill,
@@ -44,16 +44,16 @@ export default function About() {
         <motion.img ref={ref}
           animate={controls}
           initial="hidden"
-          transition={{ duration: 0.1 }}
+          transition={{ duration: 0.6 }}
           variants={{
             visible: { opacity: 1, x: 0 },
-            hidden: { opacity: 0, x: 100 },
+            hidden: { opacity: 0, x: -100 },
           }} src="/pics/IMG_4232.webp" alt="" className='rounded-md' />
 
         <motion.img ref={ref}
           animate={controls}
           initial="hidden"
-          transition={{ duration: 0.1 }}
+          transition={{ duration: 0.6 }}
           variants={{
             visible: { opacity: 1, x: 0 },
             hidden: { opacity: 0, x: 100 },
