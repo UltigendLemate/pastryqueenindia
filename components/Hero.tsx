@@ -20,6 +20,7 @@ const Hero = (props: Props) => {
               strings: [' Junior Pastry Indian Cup 2023'],
               autoStart: true,
               loop: true,
+              delay: 100,
             }}
           />
         </span>
