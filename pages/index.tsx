@@ -24,13 +24,13 @@ export default function Home() {
       // transition={{ duration: 1 }}
       // style={{ position: "relative" }}
       >
-        <motion.div
+        {/* <motion.div
           initial={{ y: 0 }}
           animate={{ y: "-120%" }}
-          transition={{ duration: 0.8 }}
-          className="w-screen h-screen bg-pink-400 absolute top-0 left-0 z-50"
-        ></motion.div>
-        <motion.div
+          transition={{ duration: 1.5 }}
+          className="w-screen h-screen bg-pink-500 absolute top-0 left-0 z-50"
+        ></motion.div> */}
+        {/* <motion.div
           initial={{ y: 0 }}
           animate={{ y: "-120%" }}
           transition={{ duration: 1.2 }}
@@ -41,7 +41,7 @@ export default function Home() {
           animate={{ y: "-120%" }}
           transition={{ duration: 1.6 }}
           className="w-screen h-screen bg-pink-600 absolute top-0 left-0 z-30"
-        ></motion.div>
+        ></motion.div> */}
         <Hero />
         <About />
         <Organizers />

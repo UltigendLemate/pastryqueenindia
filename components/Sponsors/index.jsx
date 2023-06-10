@@ -10,21 +10,21 @@ import { motion, useAnimation } from "framer-motion";
 export default function Sponsors() {
 
     const controls = useAnimation();
-    const [ref1, inView1] = useInView({ threshold: 0 });
+    const [ref1, inView1] = useInView({ threshold: 0.2 });
 
     useEffect(() => {
         if (inView1) {
             controls.start("visible");
         }
     }, [controls, inView1]);
-    const [ref2, inView2] = useInView({ threshold: 0 });
+    const [ref2, inView2] = useInView({ threshold: 0.2 });
 
     useEffect(() => {
         if (inView2) {
             controls.start("visible");
         }
     }, [controls, inView2]);
-    const [ref3, inView3] = useInView({ threshold: 0 });
+    const [ref3, inView3] = useInView({ threshold: 0.8 });
 
     useEffect(() => {
         if (inView3) {
@@ -96,18 +96,17 @@ export default function Sponsors() {
                 </motion.div>
             </div>
             {/* gold silver sponsors  */}
-            <motion.div
-                ref={ref3}
-                animate={controls}
-                initial="hidden"
-                transition={{ duration: 1 }}
-                variants={{
-                    visible: { opacity: 1, y: 0 },
-                    hidden: { opacity: 0, y: 60 },
-                }} className='grid grid-cols-2 md:grid-cols-6 gap-7 px-10  bg-white h-auto justify-center w-full my-6 items-center align-middle'>
+            <motion.div ref={ref3}
+                    animate={controls}
+                    initial="hidden"
+                    transition={{ duration: 2 }}
+                    variants={{
+                        visible: { opacity: 1, y: 0 },
+                        hidden: { opacity: 0, y: 100 },
+                    }}  className='grid grid-cols-2 md:grid-cols-6 gap-7 px-10  bg-white h-auto justify-center w-full my-6 items-center align-middle'>
                 {Data.map((Part, i) => (
                     <div key={i}>
-                        <div className='flex flex-col items-center  align-middle justify-center '>
+                        <div  className='flex flex-col items-center  align-middle justify-center '>
                             <Image alt='' src={Trial} width={1000} height={1000} className='shadow-xl' />
                             <h1 className='my-1 text-xl'>QUINCY</h1>
                         </div>

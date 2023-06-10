@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React, { useEffect } from 'react'
 import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from "framer-motion";
+import Image from "next/image"
 
 export default function About() {
   const controls = useAnimation();
@@ -12,13 +13,21 @@ export default function About() {
       controls.start("visible");
     }
   }, [controls, inView]);
+
+  const [ref2, inView2] = useInView({ threshold: 0 });
+
+  useEffect(() => {
+      if (inView2) {
+          controls.start("visible");
+      }
+  }, [controls, inView2]);
   return (
     <section ref={ref} className='bg-white text-black flex items-center flex-col max-w-screen-xl mx-auto px-5 mb-10'>
       <h1 className='font-ProzaLibre text-5xl md:text-7xl text-primary mb-4 text-center special-font'>ABOUT US</h1>
       <motion.p
         animate={controls}
         initial="hidden"
-        transition={{ duration: 0.6 }}
+        transition={{ duration:  0.8 }}
         variants={{
           visible: { opacity: 1, y: 0 },
           hidden: { opacity: 0, y: 60 },
@@ -40,26 +49,35 @@ export default function About() {
 
 
 
-      <div className='grid md:grid-cols-2 gap-10 py-10'>
-        <motion.img ref={ref}
+      <motion.div className='grid md:grid-cols-2 gap-10 py-10' ref={ref2}
+        animate={controls}
+        initial="hidden"
+        transition={{ duration: 0.8 }}
+        variants={{
+          visible: { opacity: 1, y: 0 },
+          hidden: { opacity: 0, y: 60 },
+        }}>
+        <div><Image ref={ref} width={600} height={600}
           animate={controls}
           initial="hidden"
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.8 }}
           variants={{
             visible: { opacity: 1, x: 0 },
             hidden: { opacity: 0, x: -100 },
-          }} src="/pics/IMG_4232.webp" alt="" className='rounded-md' />
+          }} src="/pics/IMG_4232.webp" alt="" className='rounded-md' /></div>
 
-        <motion.img ref={ref}
-          animate={controls}
-          initial="hidden"
-          transition={{ duration: 0.6 }}
-          variants={{
-            visible: { opacity: 1, x: 0 },
-            hidden: { opacity: 0, x: 100 },
-          }} src="/pics/IMG_4439.webp" alt="" className='rounded-md hidden md:block' />
+        <div>
+          <Image ref={ref} width={600} height={600}
+            initial="hidden"
+            animate={controls}
+            transition={{ duration: 0.8 }}
+            variants={{
+              visible: { opacity: 1, x: 0 },
+              hidden: { opacity: 0, x: 100 },
+            }} src="/pics/IMG_4439.webp" alt="" className='rounded-md hidden md:block' />
 
-      </div>
+        </div>
+      </motion.div>
 
 
 
