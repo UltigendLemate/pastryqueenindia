@@ -27,7 +27,7 @@ export default function About() {
       <motion.p
         animate={controls}
         initial="hidden"
-        transition={{ duration:  0.8 }}
+        transition={{ duration:  1.5 }}
         variants={{
           visible: { opacity: 1, y: 0 },
           hidden: { opacity: 0, y: 60 },
@@ -52,7 +52,7 @@ export default function About() {
       <motion.div className='grid md:grid-cols-2 gap-10 py-10' ref={ref2}
         animate={controls}
         initial="hidden"
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 1.5 }}
         variants={{
           visible: { opacity: 1, y: 0 },
           hidden: { opacity: 0, y: 60 },
@@ -70,7 +70,7 @@ export default function About() {
           <Image ref={ref} width={600} height={600}
             initial="hidden"
             animate={controls}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 1.5 }}
             variants={{
               visible: { opacity: 1, x: 0 },
               hidden: { opacity: 0, x: 100 },

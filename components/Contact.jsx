@@ -1,15 +1,32 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useInView } from 'react-intersection-observer';
+import { motion, useAnimation } from "framer-motion";
 
 export default function Contact() {
+    const controls = useAnimation();
+    const [ref, inView] = useInView({ threshold: 0.2 });
+
+    useEffect(() => {
+        if (inView) {
+            controls.start("visible");
+        }
+    }, [controls, inView]);
     return (
-        <div className=' mx-auto px-3 mb-10'>
+        <motion.div className=' mx-auto px-3 mb-10' ref={ref}
+            animate={controls}
+            initial="hidden"
+            transition={{ duration: 1.5 }}
+            variants={{
+                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, y: 60 },
+            }}>
 
             <h1 className='font-ProzaLibre  text-5xl md:text-7xl text-primary  text-center special-font'>CONTACT US</h1>
 
             <section className="bg-white py-5 overflow-hidden relative z-10 mt-7">
                 <div className="container mx-auto max-w-screen-xl ">
                     <div className="flex flex-wrap lg:justify-between w-full flex-col-reverse md:flex-row px-4 md:px-0  -mr-4">
-                    <div className="w-full mx-2 mt-7 md:mt-0 lg:w-1/2 xl:w-[50%] px-4 -ml-px  md:ml-10">
+                        <div className="w-full mx-2 mt-7 md:mt-0 lg:w-1/2 xl:w-[50%] px-4 -ml-px  md:ml-10">
                             <div className="bg-white relative rounded-lg p-8 sm:p-12 shadow-[0_0px_10px_rgba(0,0,0,0.25)] ">
                                 <form>
                                     <div className="mb-4">
@@ -93,7 +110,7 @@ export default function Contact() {
                                     </div>
                                 </form>
                                 <div>
-    
+
                                     <span className="absolute -right-7 -top-7 z-[-1]">
                                         <svg
                                             width="107"
@@ -1240,7 +1257,7 @@ export default function Contact() {
 
                         <div className="w-full lg:w-1/2 xl:w-[43%]    md:px-4">
                             <div className=" mb-12 lg:mb-0">
-                              
+
                                 <p className="text-base md:text-lg text-body-color leading-relaxed mb-9 text-justify">
                                     Get connected to us just with an E-mail, and get us through your doubts, queries, problems and suggestions Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, itaque?
                                 </p>
@@ -1322,10 +1339,10 @@ export default function Contact() {
 
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </section>
-        </div>
+        </motion.div>
     )
 }
