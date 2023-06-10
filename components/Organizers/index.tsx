@@ -8,7 +8,7 @@ import image3 from "../images/juniores pastry wc.png"
 import image4 from "../images/ihe.png"
 // import styles from "../../styles/Organizers.module.css"
 
-const org = () => {
+const Org = () => {
   const controls = useAnimation();
   const [ref, inView] = useInView({ threshold: 0.2 });
 
@@ -72,4 +72,4 @@ const org = () => {
   )
 }
 
-export default org
+export default Org
