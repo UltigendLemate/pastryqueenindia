@@ -1,6 +1,20 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from "@emailjs/browser"
+
 
 export default function Contact() {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_8vyys27', 'template_6m9mp0v', form.current, 'bIz0Cj4I0MEgua1CU')
+            .then((result) => {
+                console.log(result.text);
+                e.target.reset;
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
     return (
         <div className=' mx-auto px-3 mb-10'>
 
@@ -9,9 +23,9 @@ export default function Contact() {
             <section className="bg-white py-5 overflow-hidden relative z-10 mt-7">
                 <div className="container mx-auto max-w-screen-xl ">
                     <div className="flex flex-wrap lg:justify-between w-full flex-col-reverse md:flex-row px-4 md:px-0  -mr-4">
-                    <div className="w-full mx-2 mt-7 md:mt-0 lg:w-1/2 xl:w-[50%] px-4 -ml-px  md:ml-10">
+                        <div className="w-full mx-2 mt-7 md:mt-0 lg:w-1/2 xl:w-[50%] px-4 -ml-px  md:ml-10">
                             <div className="bg-white relative rounded-lg p-8 sm:p-12 shadow-[0_0px_10px_rgba(0,0,0,0.25)] ">
-                                <form>
+                                <form ref={form} onSubmit={sendEmail}>
                                     <div className="mb-4">
                                         <input
                                             type="text"
@@ -27,6 +41,7 @@ export default function Contact() {
                         focus-visible:shadow-none
                         focus:border-primary
                         "
+                                            name="user_name"
                                         />
                                     </div>
                                     <div className="mb-4">
@@ -44,6 +59,8 @@ export default function Contact() {
                         focus-visible:shadow-none
                         focus:border-primary
                         "
+                                            name="user_email"
+
                                         />
                                     </div>
                                     <div className="mb-4">
@@ -61,6 +78,7 @@ export default function Contact() {
                         focus-visible:shadow-none
                         focus:border-primary
                         "
+                                            name="user_phone"
                                         />
                                     </div>
                                     <div className="mb-4">
@@ -79,11 +97,14 @@ export default function Contact() {
                         focus-visible:shadow-none
                         focus:border-primary
                         "
+                                            name="message"
                                         ></textarea>
                                     </div>
                                     <div>
                                         <button
                                             type="submit"
+                                            value="Send"
+                                            onClick={sendEmail}
                                             className="
                                             lg:text-base text-base w-full bg-pink-400 mb-2 lg:mb-0 hover:bg-pink-500 rounded-lg text-black p-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-40
                         "
@@ -93,7 +114,7 @@ export default function Contact() {
                                     </div>
                                 </form>
                                 <div>
-    
+
                                     <span className="absolute -right-7 -top-7 z-[-1]">
                                         <svg
                                             width="107"
@@ -1240,7 +1261,7 @@ export default function Contact() {
 
                         <div className="w-full lg:w-1/2 xl:w-[43%]   px-4">
                             <div className=" mb-12 lg:mb-0">
-                              
+
                                 <p className="text-base md:text-lg text-body-color leading-relaxed mb-9 text-justify">
                                     Get connected to us just with an E-mail, and get us through your doubts, queries, problems and suggestions Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, itaque?
                                 </p>
@@ -1322,7 +1343,7 @@ export default function Contact() {
 
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </section>
