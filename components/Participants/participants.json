@@ -1,0 +1,135 @@
+[
+   {
+     "id": 1,
+     "name": "Amar",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 2,
+     "name": "Akbar",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 3,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 4,
+     "city": "Delhi",
+     "institute": "Fiitjee",
+     "normalText": "team1Lorem ipsum dolor sit, architecto nihil repellate. Amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam",
+     "expandedText":"Hello bhai 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
+     },
+   {
+     "id": 5,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 6,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 7,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 8,
+     "city": "Delhi",
+     "institute": "Fiitjee",
+     "normalText": "team2 Lorem ipsum dolor sit, architecto nihil repellate. Amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam",
+     "expandedText":"team2 asdfasdf asdfewaf asdf 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
+   },
+   {
+     "id": 9,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 10,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 11,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 12,
+     "city": "Delhi",
+     "institute": "Fiitjee",
+     "normalText": "team3 ioasdifo  ipsum dolor sit, architecto nihil repellate. Amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam",
+     "expandedText":"team 3 expanded asdffdsaf asdfuhia adsfas dnfauidsufasnfjka adsiufhaksdf auidshfiansdf asdfnkjasdnf aiudshfjkadsf adsjfjkadnsf iuasdh fjkadsnf isjadhfjka fiajsdfknf iashdfjkan fhaisdfjkan fiuasdhfjka 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
+   },
+   {
+     "id": 13,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 14,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 15,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 16,
+     "city": "Delhi",
+     "institute": "Fiitjee",
+     "normalText": "Lorem ipsum dolor sit, architecto nihil repellate. Amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam",
+     "expandedText":"4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
+   },
+   {
+     "id": 17,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 18,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 19,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 20,
+     "city": "Delhi",
+     "institute": "Fiitjee",
+     "normalText": "Lorem ipsum dolor sit, architecto nihil repellate. Amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam",
+     "expandedText":"5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
+   },
+   {
+     "id": 21,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 22,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 23,
+     "name": "Anthony",
+     "imagePath": "/pp/chef.jpg"
+   },
+   {
+     "id": 24,
+     "city": "Delhi",
+     "institute": "Fiitjee",
+     "normalText": "Lorem ipsum dolor sit, architecto nihil repellate. Amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam",
+     "expandedText":"6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
+   }
+ ]
+ 

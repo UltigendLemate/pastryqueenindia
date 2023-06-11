@@ -1,11 +1,17 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import emailjs from "@emailjs/browser"
+import { useInView } from 'react-intersection-observer';
+import { motion, useAnimation } from "framer-motion";
+
+
 
 
 export default function Contact() {
+    const controls = useAnimation();
+    const [ref, inView] = useInView({ threshold: 0.2 });
     const form = useRef();
     const sendEmail = (e) => {
-        e.preventDefault();
+        // e.preventDefault();
 
         emailjs.sendForm('service_8vyys27', 'template_6m9mp0v', form.current, 'bIz0Cj4I0MEgua1CU')
             .then((result) => {
@@ -15,10 +21,24 @@ export default function Contact() {
                 console.log(error.text);
             });
     };
-    return (
-        <div className=' mx-auto px-3 mb-10'>
 
-            <h1 className='font-ProzaLibre  text-5xl md:text-7xl text-pink-600  text-center special-font'>CONTACT US</h1>
+
+    useEffect(() => {
+        if (inView) {
+            controls.start("visible");
+        }
+    }, [controls, inView]);
+    return (
+        <motion.div className=' mx-auto px-3 mb-10' ref={ref}
+            animate={controls}
+            initial="hidden"
+            transition={{ duration: 1.5 }}
+            variants={{
+                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, y: 60 },
+            }}>
+
+            <h1 className='font-ProzaLibre  text-5xl md:text-7xl text-primary  text-center special-font'>CONTACT US</h1>
 
             <section className="bg-white py-5 overflow-hidden relative z-10 mt-7">
                 <div className="container mx-auto max-w-screen-xl ">
@@ -106,7 +126,7 @@ export default function Contact() {
                                             value="Send"
                                             onClick={sendEmail}
                                             className="
-                                            lg:text-base text-base w-full bg-pink-400 mb-2 lg:mb-0 hover:bg-pink-500 rounded-lg text-black p-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-40
+                                            lg:text-base text-base w-full bg-primary mb-2 lg:mb-0 hover:bg-pink-700 rounded-lg text-black p-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-40
                         "
                                         >
                                             Send Message
@@ -1259,7 +1279,7 @@ export default function Contact() {
                             </div>
                         </div>
 
-                        <div className="w-full lg:w-1/2 xl:w-[43%]   px-4">
+                        <div className="w-full lg:w-1/2 xl:w-[43%]    md:px-4">
                             <div className=" mb-12 lg:mb-0">
 
                                 <p className="text-base md:text-lg text-body-color leading-relaxed mb-9 text-justify">
@@ -1347,6 +1367,6 @@ export default function Contact() {
                     </div>
                 </div>
             </section>
-        </div>
+        </motion.div>
     )
 }
