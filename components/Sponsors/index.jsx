@@ -47,7 +47,7 @@ export default function Sponsors() {
                     variants={{
                         visible: { opacity: 1, y: 0 },
                         hidden: { opacity: 0, y: 60 },
-                    }} className={`flex flex-col lg:flex-row shadow-xl backdrop-blur-3xl rounded-lg px-2 py-6 basis-3/5 items-center justify-center mx-6 w-fit h-auto my-auto ${showModal1 ? "md:h-screen h-fit" : ""}`}>
+                    }} className={`flex flex-col lg:flex-row shadow-xl  rounded-lg px-2 py-6 basis-3/5 items-center justify-center mx-6 w-fit h-auto my-auto ${showModal1 ? "md:h-screen h-fit" : ""}`}>
                     <div className='rounded-lg mx-4 flex justify-center items-center max-w-4/5'>
                         <Image alt='' src={Trial} width={2400} height={2400} className='' />
                     </div>
@@ -68,7 +68,7 @@ export default function Sponsors() {
                         visible: { opacity: 1, y: 0 },
                         hidden: { opacity: 0, y: 60 },
                     }} className={`flex basis-2/5 flex-col ${showModal2 || showModal3 ? "lg:flex-col" : "lg:flex-col"} bg-white h-auto w-auto mx-6 items-center`}>
-                    <div className={`flex flex-col lg:flex-row shadow-xl backdrop-blur-3xl rounded-lg px-4 py-4 items-center justify-center w-full m-4 ${showModal2 ? "h-screen w-full" : "basis-1/2"}`}>
+                    <div className={`flex flex-col lg:flex-row shadow-xl  rounded-lg px-4 py-4 items-center justify-center w-full m-4 ${showModal2 ? "h-screen w-full" : "basis-1/2"}`}>
                         <div className='rounded-lg mx-4 flex justify-center items-center'>
                             <Image alt='' src={Trial} width={420} height={420} className='max-w-[100%]' />
                         </div>
@@ -81,7 +81,7 @@ export default function Sponsors() {
                             </div>
                         </div>
                     </div>
-                    <div className={`flex flex-col lg:flex-row shadow-2xl backdrop-blur-3xl rounded-lg px-4 py-3 items-center justify-center w-full rounded-lgm m-4 ${showModal3 ? "h-screen w-full" : "basis-1/2"}`}>
+                    <div className={`flex flex-col lg:flex-row shadow-2xl rounded-lg px-4 py-3 items-center justify-center w-full rounded-lgm m-4 ${showModal3 ? "h-screen w-full" : "basis-1/2"}`}>
                         <div className='rounded-lg mx-4 flex justify-center items-center'>
                             <Image alt='' src={Trial} width={420} height={420} className='max-w-[100%]' />
                         </div>
