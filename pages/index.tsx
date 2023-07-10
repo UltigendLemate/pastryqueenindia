@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import Hero from '@/components/Hero'
 import About from '@/components/About.jsx'
 import Contact from '@/components/Contact.jsx'
-import Sponsors from '@/components/Sponsors'
+import Sponsors from '@/components/Sponsors/Sponsors'
 import Organizers from '@/components/Organizers/index'
 import Participants from '@/components/Participants'
 

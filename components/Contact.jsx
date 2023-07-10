@@ -1283,13 +1283,13 @@ export default function Contact() {
                             <div className=" mb-12 lg:mb-0">
 
                                 <p className="text-base md:text-lg text-body-color leading-relaxed mb-9 text-justify">
-                                    Get connected to us just with an E-mail, and get us through your doubts, queries, problems and suggestions Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, itaque?
+                                    Get connected to us just with an E-mail, and get us through your doubts, queries, problems and suggestions. We reply within 2 working days.
                                 </p>
 
 
 
 
-                                <div className="mb-8 flex w-full max-w-[370px]  ">
+                                <div className="mb-8 flex w-full max-w-[370px] md:max-w-md  ">
                                     <div
                                         className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
                                     >
@@ -1307,7 +1307,9 @@ export default function Contact() {
                                     <div className="w-full">
                                         <h4 className="text-dark mb-1 text-xl font-bold">Our Location</h4>
                                         <p className="text-body-color text-base md:text-lg">
-                                            99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                                        206, Samrat Bhawan, Ranjit Nagar
+Commercial Complex, Behind Inox Cinema
+New Delhi - 110008
                                         </p>
                                     </div>
                                 </div>
@@ -1334,7 +1336,7 @@ export default function Contact() {
                                     </div>
                                     <div className="w-full">
                                         <h4 className="text-dark mb-1 text-xl font-bold">Phone Number</h4>
-                                        <p className="text-body-color md:text-lg text-base">(+62)81 414 257 9980</p>
+                                        <p className="text-body-color md:text-lg text-base">+91 9811136837, +91 9810315463</p>
                                     </div>
                                 </div>
                                 <div className="mb-8 flex w-full max-w-[370px] ">
@@ -1354,7 +1356,7 @@ export default function Contact() {
                                     </div>
                                     <div className="w-full">
                                         <h4 className="text-dark mb-1 text-xl font-bold">Email Address</h4>
-                                        <p className="text-body-color text-base md:text-lg">info@yourdomain.com</p>
+                                        <p className="text-body-color text-base md:text-lg">sanjayhammer@gmail.com</p>
                                     </div>
                                 </div>
 

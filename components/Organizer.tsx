@@ -18,11 +18,11 @@ const Organizer = (props : Props) => {
     }, [showModal])
     
   return (
-    <div className="max-w-xs md:max-w-xl  mb-5 sm:mb-0 mx-auto p-2 sm:p-5  bg-white rounded-md overflow-hidden shadow-md">
+    <div className="max-w-xs md:max-w-xl  mb-5 sm:mb-0 mx-auto p-2 sm:p-5 shadow-xl  bg-white rounded-md overflow-hidden ">
     <div className="flex w-full  h-32 sm:h-36 justify-center">
       <img src={props.img} alt="Image1" className='w-80 p-4' />
     </div> <div className="p-4">
-      <p className="text-gray-800 text-xs md:text-sm mb-2">{props.mini}<span className='text-primary cursor-pointer' onClick={() => setShowModal(true)}>Know More</span></p>
+      <p className="text-gray-800 text-xs md:text-sm mb-2">{props.mini}<span className='text-primary cursor-pointer' onClick={() => setShowModal(true)}> Know More</span></p>
     </div>
     {showModal && (
                 <div className="fixed w-screen h-[100vh]  bottom-0 left-0 z-[999] flex items-center justify-center bg-white bg-opacity-10 backdrop-blur-md overflow-y-hidden">
