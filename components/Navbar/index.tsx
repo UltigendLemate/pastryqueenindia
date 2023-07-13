@@ -40,7 +40,7 @@ const Index = () => {
                   {Data.map((Part, i) => (
                     <div key={i}>
                       <li className="lg:text-base text-base mb-4 text-black lg:px-4 lg:mb-0 text-center font-semibold hover:cursor-pointer hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent">
-                        <Link href="/" onClick={() => setNavbar(!navbar)}>
+                        <Link href={`#`} onClick={() => setNavbar(!navbar)}>
                           {Part}
                         </Link>
                       </li>

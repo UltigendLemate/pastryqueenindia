@@ -30,7 +30,7 @@ const Part = () => {
     setShowPopup(false);
   };
   return (
-    <div className="py-10 bg-white">
+    <div className="py-10 bg-white overflow-x-hidden">
       <div className="container m-auto text-gray-600 md:px-12 xl:px-6">
         <div className="mb-12 space-y-2 text-center">
           <h2 className="text-5xl md:text-7xl text-primary mb-4 special-font">Participants</h2>

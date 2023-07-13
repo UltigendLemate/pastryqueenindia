@@ -11,7 +11,14 @@ const Hero = (props: Props) => {
       <div className='absolute w-full h-full bg-black/60 z-0'></div>
       <div className='z-10'>
         {/* <h3 className='text-white text-lg text-center font-bold uppercase'>Hammer Foods Presents</h3> */}
-        <h1 className='special-font text-[3.4rem] text-center sm:text-7xl md:text-8xl lg:text-9xl bg-white bg-clip-text text-primary'>PASTRY EVENT</h1>
+        <div className='flex flex-col text-center text-white text-3xl font-semibold'>
+          <img src="/pp/elle.svg" className='mx-auto  h-20 my-2 bg-white rounded-xl ' alt="" />
+          Presents
+          {/* <img src="/pp/delta.png" className='ml-3 inline h-24 bg-white rounded-xl' alt="" /> */}
+        </div>
+        {/* <h5 className='text-4xl text-center text-white tracking-[2rem]'>Presents</h5> */}
+        <h1 className='special-font text-[3.4rem] text-center sm:text-7xl mb-3 md:text-8xl lg:text-9xl bg-white bg-clip-text text-primary'>PASTRY EVENT</h1>
+
 
         <span className='text-white text-[1.1rem] text-center sm:text-3xl lg:text-5xl font-bold uppercase'>
           {/* Junior Pastry Indian Cup 2023// */}
@@ -24,6 +31,13 @@ const Hero = (props: Props) => {
             }}
           />
         </span>
+        <h2 className='text-[3.4rem] text-center sm:text-2xl md:text-2xl mt-3 font-semibold text-white'>02-03 August 2023, Indian Expo Centre & Mart, Greater Noida, NCR, India</h2>
+
+        <div className=' text-center text-white mt-10 italic text-2xl font-semibold'>
+         
+          Powered By
+          <img src="/pp/delta.png" className='ml-3  inline h-16 bg-white rounded-xl' alt="" />
+        </div>
       </div>
     </div>
   )
