@@ -1,22 +1,29 @@
  [
     {
-        "img" : "/images/sigep.webp",
-        "mini" : "SIGEP stands as the global forefront in the dessert and coffee foodservice industry, offering a dedicated B2B showcase like no other. This essential event presents an unparalleled opportunity to explore the latest innovations, trends, and news within the sector, encompassing raw materials, ingredients, machinery, equipment, furnishings, packaging, and services. ",
-        "text" : "SIGEP stands as the global forefront in the dessert and coffee foodservice industry, offering a dedicated B2B showcase like no other. This essential event presents an unparalleled opportunity to explore the latest innovations, trends, and news within the sector, encompassing raw materials, ingredients, machinery, equipment, furnishings, packaging, and services.\n As a unique platform for dialogue, SIGEP fosters meaningful discussions with industry professionals and companies. It serves as a hub for exchanging ideas, examining industry landscapes, and seizing business opportunities. This event also facilitates networking, professional development, and the sharing of knowledge.\n\nImmerse yourself in a five-day experience where you can engage face-to-face, shape the future of the dessert and coffee foodservice industry, and embrace Italy's renowned ambassador for Dolce. "
-    },
-    {
         "img" : "/images/bakery review.png",
-        "mini" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ad nesciunt consequuntur error modi explicabo ipsum voluptas sit incidunt natus soluta repudiandae eos minima corporis, quisquam, a totam numquam alias. Labore animi, explicabo laudantium impedit dolore a eveniet maiores nobis quae numquam assumenda sunt eos et, earum reprehenderit. ",
-        "text" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eos harum, reiciendis quibusdam, aliquid officia sequi nihil voluptate facere deleniti dolore pariatur ea nemo voluptatem dolores. Laboriosam, magnam voluptatum. Cupiditateius suscipit consectetur quas sit cumque doloremque qui inventore? Veniam, laborum amet! Impedit praesentium, nostrum tempora possimus cum nihil tempore aperiam facilis nesciunt repellendus sit, eaque culpa ducimus quibusdam, iste ipsa qui consequatur! Sit accusantium qui amet enim fuga deserunt consequuntur ab."
-    },
-    {
-        "img" : "/images/juniores pastry wc.png",
-        "mini" : "The Juniores World Pastry Cup is a unique team event aimed at young people under 23, offering them a highly educational opportunity to test their skills and find valuable inspiration to kickstart a rewarding and successful career.",
-        "text" : "The Juniores World Pastry Cup is a unique team event aimed at young people under 23, offering them a highly educational opportunity to test their skills and find valuable inspiration to kickstart a rewarding and successful career. "
+        "link" : "https://www.hammer.co.in",
+        "mini" : "Bakery Review is a bi-monthly magazine that caters to professionals seeking knowledge about the rapidly changing Indian Bakery & Confectionery industry. With an emphasis on providing the latest information and in-depth insights, Bakery Review explores new growth areas and developments in the baking industry.",
+        "text" : "Bakery Review is a bi-monthly magazine that caters to professionals seeking knowledge about the rapidly changing Indian Bakery & Confectionery industry. With an emphasis on providing the latest information and in-depth insights, Bakery Review explores new growth areas and developments in the baking industry. Our focus extends to Commercial, Retail, In-store Bakeries, and Foodservice sectors, as well as allied industries such as Milling, Dairy, and Snack Food. We offer articles on cutting-edge techniques, equipment, recipes, and more. With exclusive reach to bakery professionals in India, Bakery Review is the only magazine of its kind, dedicated to enhancing knowledge for future business growth."
     },
     {
         "img": "/images/ihe.png",
+        "link" : "https://www.ihexpo.com/",
         "mini": "The India International Hospitality Expo (IHE Expo 2023), the premier event that brings together luxury hotels, resorts, homestays, restaurants, cloud kitchens, and industry professionals from the hospitality and F&B space. With its 6th edition taking place from August 2-5, 2023 at the India Expo Centre and Mart in Delhi NCR, IHE Expo 2023 is set to be the most sought-after sourcing hub for the industry. ",
         "text": "The India International Hospitality Expo (IHE Expo 2023), the premier event that brings together luxury hotels, resorts, homestays, restaurants, cloud kitchens, and industry professionals from the hospitality and F&B space. With its 6th edition taking place from August 2-5, 2023 at the India Expo Centre and Mart in Delhi NCR, IHE Expo 2023 is set to be the most sought-after sourcing hub for the industry.\n\nSpanning 30,000 sqm, this well-curated B2B expo will host over 1,000 exhibitors, attracting more than 20,000 B2B buyers and 25,000 visitors. Experience the pinnacle of hospitality and culinary excellence as you explore innovative products, cutting-edge technologies, and trends that shape the industry.\n\nImmerse yourself in a dynamic atmosphere of growth and learning with captivating masterclasses, insightful conclave sessions, and thrilling competitions. Discover the latest advancements, connect with industry leaders, and forge valuable partnerships.\n\nIHE Expo 2023 is your gateway to elevating your hospitality and F&B business. Join us as we redefine luxury, innovation, and culinary artistry together."
-      }
+      },
+
+    {
+        "img" : "/images/sigep.webp",
+        "link" : "https://en.sigep.it/",
+        "mini" : "SIGEP stands as the global forefront in the dessert and coffee foodservice industry, offering a dedicated B2B showcase like no other. This essential event presents an unparalleled opportunity to explore the latest innovations, trends, and news within the sector, encompassing raw materials, ingredients, machinery, equipment, furnishings, packaging, and services. ",
+        "text" : "SIGEP stands as the global forefront in the dessert and coffee foodservice industry, offering a dedicated B2B showcase like no other. This essential event presents an unparalleled opportunity to explore the latest innovations, trends, and news within the sector, encompassing raw materials, ingredients, machinery, equipment, furnishings, packaging, and services.\n As a unique platform for dialogue, SIGEP fosters meaningful discussions with industry professionals and companies. It serves as a hub for exchanging ideas, examining industry landscapes, and seizing business opportunities. This event also facilitates networking, professional development, and the sharing of knowledge.\n\nImmerse yourself in a five-day experience where you can engage face-to-face, shape the future of the dessert and coffee foodservice industry, and embrace Italy's renowned ambassador for Dolce. "
+    },
+
+    {
+        "img" : "/images/juniores pastry wc.png",
+        "link" : "https://en.sigep.it/",
+        "mini" : "The Juniores World Pastry Cup is a unique team event aimed at young people under 23, offering them a highly educational opportunity to test their skills and find valuable inspiration to kickstart a rewarding and successful career.",
+        "text" : "The Juniores World Pastry Cup is a unique team event aimed at young people under 23, offering them a highly educational opportunity to test their skills and find valuable inspiration to kickstart a rewarding and successful career. "
+    }
+
 ]

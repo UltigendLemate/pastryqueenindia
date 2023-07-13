@@ -21,7 +21,7 @@ export default function Home() {
       <About />
       <Organizers />
       <Sponsors />
-      {/* <Participants /> */}
+      <Participants />
       {/* <div className='fixed w-10 h-10 top-0 left-0 bg-black'> </div> */}
       <Contact />
     </Layout>

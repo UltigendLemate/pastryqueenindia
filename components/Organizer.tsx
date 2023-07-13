@@ -1,10 +1,12 @@
 import React from 'react'
 import { FaTimes } from 'react-icons/fa'
+import Link from 'next/link'
 
 type Props = {
     img : string,
     mini : string,
-    text:string
+    text:string,
+    link : string
 }
 const Organizer = (props : Props) => {
     const [showModal, setShowModal] = React.useState(false)
@@ -20,7 +22,9 @@ const Organizer = (props : Props) => {
   return (
     <div className="max-w-xs md:max-w-xl  mb-5 sm:mb-0 mx-auto p-2 sm:p-5 shadow-xl  bg-white rounded-md overflow-hidden ">
     <div className="flex w-full  h-32 sm:h-36 justify-center">
+        <Link href={props.link}>
       <img src={props.img} alt="Image1" className='w-80 p-4' />
+      </Link>
     </div> <div className="p-4">
       <p className="text-gray-800 text-xs md:text-sm mb-2">{props.mini}<span className='text-primary cursor-pointer' onClick={() => setShowModal(true)}> Know More</span></p>
     </div>
