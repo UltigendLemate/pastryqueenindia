@@ -53,12 +53,12 @@ const Index = () => {
                   </Link>
                 </li>
                 <li className="lg:text-base text-base text-black mx-2 mb-2 px-2 lg:py-2 pb-2 lg:mb-0 text-center font-semibold lg:hover:bg-gray-300 hover:underline-offset-8 decoration-pink-500 underline-offset-8 hover:cursor-pointer lg:hover:text-black transition-all duration-400 rounded-lg">
-                  <Link href="/JPIC Guidelines & Rules.pdf" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/jpic.pdf" onClick={() => setNavbar(!navbar)}>
                     Rules And Regulations
                   </Link>
                 </li>
                 <li className="lg:text-base text-base bg-primary mb-4 lg:mb-0 hover:bg-primary rounded-lg text-black py-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400">
-                  <Link href="/RegisterNow" onClick={() => setNavbar(!navbar)}>
+                  <Link href="/register.pdf" onClick={() => setNavbar(!navbar)}>
                     Register Now!
                   </Link>
                 </li>

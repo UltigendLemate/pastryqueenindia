@@ -19,8 +19,8 @@
    },
    {
      "id": 4,
-     "city": "JW Marriot,Bengaluru",
-     "institute": "/images/ihe.png",
+     "city": "JW Marriot, Bengaluru",
+     "institute": "/team/8.png",
      "normalText": "",
      "expandedText":"Hello bhai 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
      },
@@ -44,8 +44,8 @@
    },
    {
      "id": 8,
-     "city": "WhiteCaps, Bengaluru",
-     "institute": "/images/ihe.png",
+     "city": "WhiteCaps,  Bengaluru",
+     "institute": "/team/6.png",
      "normalText": ""
    },
    {
@@ -68,8 +68,8 @@
    },
    {
      "id": 12,
-     "city": "LCB,Gurgaon",
-     "institute": "/images/ihe.png",
+     "city": "LCB, Gurgaon",
+     "institute": "/team/7.png",
      "normalText": ""
    },
    {
@@ -92,8 +92,8 @@
    },
    {
      "id": 16,
-     "city": "ISH,Gurugram",
-     "institute": "/images/ihe.png",
+     "city": "ISH, Gurugram",
+     "institute": "/team/13.png",
      "normalText": "",
      "expandedText":"4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
    },
@@ -117,35 +117,11 @@
    },
    {
      "id": 20,
-     "city": "APCA,Mumbai",
-     "institute": "/images/ihe.png",
+     "city": "APCA, Mumbai",
+     "institute": "/team/5.png",
      "normalText": "",
      "expandedText":"5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
-   },
-   {
-     "id": 21,
-     "name": "Dr. Balendra Singh",
-     "imagePath": "/images/pi/judge1.png",
-     "isMentor":false
-   },
-   {
-     "id": 22,
-     "name": "Chef Eureka Araujo ",
-     "imagePath": "/images/pi/judge2.png",
-     "isMentor":true
-   },
-   {
-     "id": 23,
-     "name": "Chef Mukesh Singh Rawat",
-     "imagePath": "/images/pi/judge3.png",
-     "isMentor":false
-   },
-   {
-     "id": 24,
-     "city": "",
-     "institute": "/images/ihe.png",
-     "normalText": "",
-     "expandedText":"6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
    }
+
  ]
  
