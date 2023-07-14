@@ -2,17 +2,20 @@
    {
      "id": 1,
      "name": "Shakir Muhammed",
-     "imagePath": "/images/pi/jw1.png"
+     "imagePath": "/images/pi/jw1.png",
+     "isMentor":false
    },
    {
      "id": 2,
-     "name": "Baranidharan",
-     "imagePath": "/images/pi/jw2.png"
+     "name": "Mentor : Baranidharan",
+     "imagePath": "/images/pi/jw2.png",
+     "isMentor":true
    },
    {
      "id": 3,
      "name": "Shubham Thakur",
-     "imagePath": "/images/pi/jw3.png"
+     "imagePath": "/images/pi/jw3.png",
+     "isMentor":false
    },
    {
      "id": 4,
@@ -24,17 +27,20 @@
    {
      "id": 5,
      "name": "Parerna Kothari",
-     "imagePath": "/images/pi/whitecaps1.png"
+     "imagePath": "/images/pi/whitecaps1.png",
+     "isMentor":false
    },
    {
      "id": 6,
-     "name": "Ravi Dhuriya",
-     "imagePath": "/images/pi/whitecaps2.png"
+     "name": "Mentor: Ravi Dhuriya",
+     "imagePath": "/images/pi/whitecaps2.png",
+     "isMentor":true
    },
    {
      "id": 7,
      "name": "Syed Sadiya",
-     "imagePath": "/images/pi/whitecaps3.png"
+     "imagePath": "/images/pi/whitecaps3.png",
+     "isMentor":false
    },
    {
      "id": 8,
@@ -45,17 +51,20 @@
    {
      "id": 9,
      "name": "Avantika Katiyar",
-     "imagePath": "/images/pi/lcb1.png"
+     "imagePath": "/images/pi/lcb1.png",
+     "isMentor":false
    },
    {
      "id": 10,
-     "name": "Tarun Kandpal",
-     "imagePath": "/images/pi/lcb2.png"
+     "name": "Mentor: Tarun Kandpal",
+     "imagePath": "/images/pi/lcb2.png",
+     "isMentor":true
    },
    {
      "id": 11,
      "name": "Vanshika Aggarwal",
-     "imagePath": "/images/pi/lcb3.png"
+     "imagePath": "/images/pi/lcb3.png",
+     "isMentor":false
    },
    {
      "id": 12,
@@ -66,17 +75,20 @@
    {
      "id": 13,
      "name": "Anant Agarwal",
-     "imagePath": "/images/pi/ish1.png"
+     "imagePath": "/images/pi/ish1.png",
+     "isMentor":false
    },
    {
      "id": 14,
-     "name": "Aabhas Jain",
-     "imagePath": "/images/pi/ish2.png"
+     "name": "Mentor: Aabhas Jain",
+     "imagePath": "/images/pi/ish2.png",
+     "isMentor":true
    },
    {
      "id": 15,
      "name": "Khushi Popli",
-     "imagePath": "/images/pi/ish3.png"
+     "imagePath": "/images/pi/ish3.png",
+     "isMentor":false
    },
    {
      "id": 16,
@@ -88,17 +100,20 @@
    {
      "id": 17,
      "name": "Gopesh SIngh Grewal",
-     "imagePath": "/images/pi/apca1.png"
+     "imagePath": "/images/pi/apca1.png",
+     "isMentor":false
    },
    {
      "id": 18,
-     "name": "Dean Rodrigues",
-     "imagePath": "/images/pi/apca2.png"
+     "name": "Mentor: Dean Rodrigues",
+     "imagePath": "/images/pi/apca2.png",
+     "isMentor":true
    },
    {
      "id": 19,
      "name": "Rubani Singh",
-     "imagePath": "/images/pi/apca3.png"
+     "imagePath": "/images/pi/apca3.png",
+     "isMentor":false
    },
    {
      "id": 20,
@@ -110,17 +125,20 @@
    {
      "id": 21,
      "name": "Dr. Balendra Singh",
-     "imagePath": "/images/pi/judge1.png"
+     "imagePath": "/images/pi/judge1.png",
+     "isMentor":false
    },
    {
      "id": 22,
      "name": "Chef Eureka Araujo ",
-     "imagePath": "/images/pi/judge2.png"
+     "imagePath": "/images/pi/judge2.png",
+     "isMentor":true
    },
    {
      "id": 23,
      "name": "Chef Mukesh Singh Rawat",
-     "imagePath": "/images/pi/judge3.png"
+     "imagePath": "/images/pi/judge3.png",
+     "isMentor":false
    },
    {
      "id": 24,

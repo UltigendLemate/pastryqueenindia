@@ -36,17 +36,30 @@ const index = () => {  const [showPopup, setShowPopup] = useState(false);
         <div key={item.id}>
           {
 
-          item.id % 4 !== 0 ? (
+          item.id % 4 !== 0 && item.isMentor==false
+           ? (
+            
          
           <div  className="card rounded-md bg-gradient-to-t from-transparent   to-rose-300  relative max-w-md flex justify-center  mx-auto xl:w-80 xl:h-80 h-72 w-72">
             <img alt='img' src={item.imagePath}  className='w-full p-3 h-full'/>
-            <p className='absolute bottom-5 left-5  p-1 bg-pink-700 rounded-md  text-white opacity-80 '>{item.name}</p>
+            <p className='absolute bottom-5 left-50 w-full text-center p-1 bg-pink-700 rounded-md  text-white opacity-80 '>{item.name}</p>
 
           </div>
           
 
           
-          ) : (
+          ) 
+          : 
+          item.id % 4 !== 0 && item.isMentor==true?
+          (
+            <div  className="card rounded-md  bg-gradient-to-t from-transparent   to-rose-300  relative max-w-md flex justify-center  mx-auto xl:w-80 xl:h-80 h-72 w-72">
+            <img alt='img' src={item.imagePath}  className='w-full p-3 h-full'/>
+            <p className='absolute bottom-5 left-50 w-full text-center  p-1 bg-pink-700 rounded-md  text-white opacity-80 '>{item.name}</p>
+
+          </div>
+          )
+          :
+          (
           
             <div className="flex flex-col items-center  bg-white rounded-lg  ">
              <div className=''>
@@ -56,33 +69,15 @@ const index = () => {  const [showPopup, setShowPopup] = useState(false);
                 <p className="  text-xl text-gray-500">{item.city}</p>
                 <p className="  text-gray-500">{item.normalText}</p>
                 
-                {/* <button
-                  className="text-[#FF0080]  hidden xl:block hover:underline mt-2"
-                  onClick={openPopup}
-                >
-                  Read More
-                </button> */}
+                
               </div>
             </div>
-           {showPopup && (
-              <div className="fixed inset-0 flex items-center justify-center bg-white bg-opacity-20">
-                <div className="bg-white rounded-lg shadow-lg p-4 md:p-6 max-w-md w-full">
-                  <div className="flex justify-end">
-                    <button className="text-gray-600 hover:text-gray-800" onClick={closePopup}>
-                      <FaTimes className='text-pink-500 hover:text-pink-300' />
-                    </button>
-                  </div>
-                  <p className="text-base xl:text-sm 2xl:text-[19px]">
-                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit facere placeat sequi laborum asperiores itaque explicabo, a nihil, et molestias labore dolor corrupti? Consequuntur aliquid cumque, saepe repellat odit dicta corporis ab necessitatibus itaque autem iusto, placeat corrupti sed magnam, quasi non! Reprehenderit perferendis vel voluptatum consequatur qui omnis libero.
-                  </p>
-                  
-                </div>
-              </div>
-            )}
+          
           </div>
            </div>
           
-          )}
+          )
+          }
        </div>
       ))}
     
