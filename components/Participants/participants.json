@@ -1,134 +1,132 @@
 [
    {
      "id": 1,
-     "name": "Amar",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Shakir Muhammed",
+     "imagePath": "/images/pi/jw1.png"
    },
    {
      "id": 2,
-     "name": "Akbar",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Baranidharan",
+     "imagePath": "/images/pi/jw2.png"
    },
    {
      "id": 3,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Shubham Thakur",
+     "imagePath": "/images/pi/jw3.png"
    },
    {
      "id": 4,
-     "city": "Delhi",
-     "institute": "Fiitjee",
-     "normalText": "team1Lorem ipsum dolor sit, architecto nihil repellate. Amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam",
+     "city": "Bangalore",
+     "institute": "/images/pi/jwlogo.png",
+     "normalText": "JW Marriot,Bengaluru",
      "expandedText":"Hello bhai 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
      },
    {
      "id": 5,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Parerna Kothari",
+     "imagePath": "/images/pi/whitecaps1.png"
    },
    {
      "id": 6,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Ravi Dhuriya",
+     "imagePath": "/images/pi/whitecaps2.png"
    },
    {
      "id": 7,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Syed Sadiya",
+     "imagePath": "/images/pi/whitecaps3.png"
    },
    {
      "id": 8,
-     "city": "Delhi",
-     "institute": "Fiitjee",
-     "normalText": "team2 Lorem ipsum dolor sit, architecto nihil repellate. Amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam",
-     "expandedText":"team2 asdfasdf asdfewaf asdf 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
+     "city": "Bangalore",
+     "institute": "/images/pi/wclogo.png",
+     "normalText": "WhiteCaps, Bengaluru"
    },
    {
      "id": 9,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Avantika Katiyar",
+     "imagePath": "/images/pi/lcb1.png"
    },
    {
      "id": 10,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Tarun Kandpal",
+     "imagePath": "/images/pi/lcb2.png"
    },
    {
      "id": 11,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Vanshika Aggarwal",
+     "imagePath": "/images/pi/lcb3.png"
    },
    {
      "id": 12,
-     "city": "Delhi",
-     "institute": "Fiitjee",
-     "normalText": "team3 ioasdifo  ipsum dolor sit, architecto nihil repellate. Amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam",
-     "expandedText":"team 3 expanded asdffdsaf asdfuhia adsfas dnfauidsufasnfjka adsiufhaksdf auidshfiansdf asdfnkjasdnf aiudshfjkadsf adsjfjkadnsf iuasdh fjkadsnf isjadhfjka fiajsdfknf iashdfjkan fhaisdfjkan fiuasdhfjka 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
+     "city": "Gurgaon",
+     "institute": "/images/pi/lcblogo.png",
+     "normalText": "LCB,Gurgaon"
    },
    {
      "id": 13,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Anant Agarwal",
+     "imagePath": "/images/pi/ish1.png"
    },
    {
      "id": 14,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Aabhas Jain",
+     "imagePath": "/images/pi/ish2.png"
    },
    {
      "id": 15,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Khushi Popli",
+     "imagePath": "/images/pi/ish3.png"
    },
    {
      "id": 16,
-     "city": "Delhi",
-     "institute": "Fiitjee",
-     "normalText": "Lorem ipsum dolor sit, architecto nihil repellate. Amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam",
+     "city": "Gurugram",
+     "institute": "/images/pi/ishlogo.jpeg",
+     "normalText": "ISH,Gurugram",
      "expandedText":"4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
    },
    {
      "id": 17,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Gopesh SIngh Grewal",
+     "imagePath": "/images/pi/apca1.png"
    },
    {
      "id": 18,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Dean Rodrigues",
+     "imagePath": "/images/pi/apca2.png"
    },
    {
      "id": 19,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Rubani Singh",
+     "imagePath": "/images/pi/apca3.png"
    },
    {
      "id": 20,
-     "city": "Delhi",
-     "institute": "Fiitjee",
-     "normalText": "Lorem ipsum dolor sit, architecto nihil repellate. Amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam",
+     "city": "Mumbai",
+     "institute": "/images/pi/apcalogo.png",
+     "normalText": "APCA,Mumbai",
      "expandedText":"5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
    },
    {
      "id": 21,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Dr. Balendra Singh",
+     "imagePath": "/images/pi/judge1.png"
    },
    {
      "id": 22,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Chef Eureka Araujo ",
+     "imagePath": "/images/pi/judge2.png"
    },
    {
      "id": 23,
-     "name": "Anthony",
-     "imagePath": "/pp/chef.jpg"
+     "name": "Chef Mukesh Singh Rawat",
+     "imagePath": "/images/pi/judge3.png"
    },
    {
      "id": 24,
-     "city": "Delhi",
-     "institute": "Fiitjee",
-     "normalText": "Lorem ipsum dolor sit, architecto nihil repellate. Amet consectetur adipisicing elit. Nulla sapiente velit est ullam voluptatum. Provident quod cupiditate iste libero perferendis, deleniti illo aperiam. Facere, reprehenderit? Necessitatibus, voluptates nihil ut autem a omnis, ipsam",
+     "city": "",
+     "institute": "/images/pi/jurylogo.png",
+     "normalText": "",
      "expandedText":"6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
    }
  ]

@@ -32,7 +32,7 @@ const Org = () => {
         hidden: { opacity: 0, y: 60 },
       }} className="  relative z-0"  >
       <img src="/pics/IMG_3980.webp" className=' opacity-50 shadow-2xl shadow-black absolute w-full h-full -z-10' alt="" />
-      <h2 className='z-20 text-5xl md:text-7xl text-pink-600 mb-4  mt-10 md:mt-20 text-center special-font'>The Organizers</h2>
+      <h2 className='z-20 mx-auto text-5xl md:text-7xl text-pink-600 mb-4  mt-10 md:mt-20 text-center special-font'>The Organizers</h2>
       <div className="sm:grid sm:grid-cols-2 md:mb-20 mb-10 max-w-6xl m-auto gap-4 md:gap-8 p-4 z-40 ">
 
         {
