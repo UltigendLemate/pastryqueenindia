@@ -63,7 +63,7 @@ const index = () => {  const [showPopup, setShowPopup] = useState(false);
           
             <div className="flex flex-col items-center  bg-white rounded-lg  ">
              <div className=''>
-            <div className=" rounded-lg text-center xl:text-left max-w-md xl:w-80 xl:h-80 h-72 w-72 m-auto  overflow-hidden">
+            <div className=" rounded-lg text-center xl:text-left max-w-xl xl:w-[370px]  h-80 w-80 m-auto  overflow-hidden">
               <div className="p-4 text-center ">
                <img src={item.institute}/>
                 <p className=" mt-5 text-xl text-gray-500">{item.city}</p>
