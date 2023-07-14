@@ -42,7 +42,7 @@ const index = () => {  const [showPopup, setShowPopup] = useState(false);
          
           <div  className="card rounded-md bg-gradient-to-t from-transparent   to-rose-300  relative max-w-md flex justify-center  mx-auto xl:w-80 xl:h-80 h-72 w-72">
             <img alt='img' src={item.imagePath}  className='w-full p-3 h-full'/>
-            <p className='absolute bottom-5 left-50 w-full text-center p-1 bg-pink-700 rounded-md  text-white opacity-80 '>{item.name}</p>
+            <p className='absolute bottom-5 left-50  text-center p-1 bg-pink-700 rounded-md  text-white opacity-80 '>{item.name}</p>
 
           </div>
           
@@ -52,9 +52,9 @@ const index = () => {  const [showPopup, setShowPopup] = useState(false);
           : 
           item.id % 4 !== 0 && item.isMentor==true?
           (
-            <div  className="card rounded-md  bg-gradient-to-t from-transparent   to-rose-300  relative max-w-md flex justify-center  mx-auto xl:w-80 xl:h-80 h-72 w-72">
+            <div  className="card rounded-md border-t-[3px] border-l-[3px] border-r-[3px] border-l-yellow-300 border-r-yellow-300  border-t-yellow-300 bg-gradient-to-t from-transparent   to-rose-300  relative max-w-md flex justify-center  mx-auto xl:w-80 xl:h-80 h-72 w-72">
             <img alt='img' src={item.imagePath}  className='w-full p-3 h-full'/>
-            <p className='absolute bottom-5 left-50 w-full text-center  p-1 bg-pink-700 rounded-md  text-white opacity-80 '>{item.name}</p>
+            <p className='absolute bottom-5 left-50  text-center  p-1 bg-pink-700 rounded-md  text-white opacity-80 '>{item.name}</p>
 
           </div>
           )
@@ -63,11 +63,10 @@ const index = () => {  const [showPopup, setShowPopup] = useState(false);
           
             <div className="flex flex-col items-center  bg-white rounded-lg  ">
              <div className=''>
-            <div className="bg-white rounded-lg text-center xl:text-left max-w-xs m-auto  overflow-hidden">
+            <div className=" rounded-lg text-center xl:text-left max-w-md xl:w-80 xl:h-80 h-72 w-72 m-auto  overflow-hidden">
               <div className="p-4 text-center ">
                <img src={item.institute}/>
-                <p className="  text-xl text-gray-500">{item.city}</p>
-                <p className="  text-gray-500">{item.normalText}</p>
+                <p className=" mt-5 text-xl text-gray-500">{item.city}</p>
                 
                 
               </div>
