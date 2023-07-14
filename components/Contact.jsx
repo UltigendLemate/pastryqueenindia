@@ -1357,6 +1357,7 @@ New Delhi - 110008
                                     <div className="w-full">
                                         <h4 className="text-dark mb-1 text-xl font-bold">Email Address</h4>
                                         <p className="text-body-color text-base md:text-lg">sanjayhammer@gmail.com</p>
+                                        <p className="text-body-color text-base md:text-lg">rajathammer@gmail.com</p>
                                     </div>
                                 </div>
 

@@ -13,7 +13,7 @@ import data from '../org.json';
 
 const Org = () => {
   const controls = useAnimation();
-  const [ref, inView] = useInView({ threshold: 0.2 });
+  const [ref, inView] = useInView({ threshold: 0.05 });
   const [showModal2, setShowModal2] = React.useState(false);
   useEffect(() => {
     if (inView) {
@@ -26,7 +26,7 @@ const Org = () => {
     <motion.div ref={ref}
       animate={controls}
       initial="hidden"
-      transition={{ duration: 1.5 }}
+      transition={{ duration: 1 }}
       variants={{
         visible: { opacity: 1, y: 0 },
         hidden: { opacity: 0, y: 60 },
