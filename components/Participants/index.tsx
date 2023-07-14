@@ -8,7 +8,7 @@ type Props = {
   
 }
 
-const index = () => {  const [showPopup, setShowPopup] = useState(false);
+const Index = () => {  const [showPopup, setShowPopup] = useState(false);
   
   const openPopup = () => {
     setShowPopup(true);
@@ -90,5 +90,5 @@ const index = () => {  const [showPopup, setShowPopup] = useState(false);
   )
 
   }
-export default index
+export default Index
 
