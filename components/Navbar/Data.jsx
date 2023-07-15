@@ -1,5 +1,5 @@
 const Data = [
-    "About", "Organizers", "Sponsors", "Participants", "Contact",
+    "About", "Organizers", "Sponsors", "Jury", "Participants", "Contact",
 ]
 
 export default Data

@@ -29,7 +29,7 @@ export default function Contact() {
         }
     }, [controls, inView]);
     return (
-        <motion.div className=' mx-auto font-mon px-3 mb-10' ref={ref}
+        <motion.div id='Contact' className=' mx-auto font-mon px-3 mb-10' ref={ref}
             animate={controls}
             initial="hidden"
             transition={{ duration: 1.5 }}

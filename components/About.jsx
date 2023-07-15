@@ -22,7 +22,7 @@ export default function About() {
       }
   }, [controls, inView2]);
   return (
-    <section ref={ref} className='bg-white font-mon text-black flex items-center flex-col max-w-screen-xl mx-auto px-5 '>
+    <section ref={ref} id='About' className='bg-white font-mon text-black flex items-center flex-col max-w-screen-xl mx-auto px-5 '>
       <h1 className='font-ProzaLibre text-5xl md:text-7xl text-primary mt-5 mb-6 text-center special-font'>ABOUT US</h1>
       <motion.p
         animate={controls}

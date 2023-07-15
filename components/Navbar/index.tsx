@@ -13,7 +13,7 @@ const Index = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="w-full absolute top-0 left-0 right-0 z-20 bg-white">
+      <nav className="w-full absolute top-0 left-0 right-0 z-50 bg-white">
         <div className="justify-between px-4 mx-auto width-screen lg:items-center lg:flex">
           <div>
             <div className="flex items-center justify-between py-3  lg:block">
@@ -40,7 +40,7 @@ const Index = () => {
                   {Data.map((Part, i) => (
                     <div key={i}>
                       <li className="lg:text-base text-base mb-4 text-black lg:px-4 lg:mb-0 text-center font-semibold hover:cursor-pointer hover:underline decoration-pink-500 underline-offset-8 lg:hover:text-pink-500 transition-all duration-400 lg:hover:bg-transparent">
-                        <Link href={`#`} onClick={() => setNavbar(!navbar)}>
+                        <Link href={`#${Part}`} onClick={() => setNavbar(!navbar)}>
                           {Part}
                         </Link>
                       </li>

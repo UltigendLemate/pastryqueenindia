@@ -22,7 +22,7 @@ const Index = () => {  const [showPopup, setShowPopup] = useState(false);
   return (
     
     
-<div className="pb-10  bg-white">  
+<div id='Participants' className="pb-10  bg-white">  
     <div className="container m-auto  text-gray-600 md:px-12 xl:px-6">
         <div className="mb-12 space-y-2 text-center">
             <h2 className="font-ProzaLibre text-5xl md:text-7xl text-primary mt-12 mb-6 text-center special-font">Participants</h2>
