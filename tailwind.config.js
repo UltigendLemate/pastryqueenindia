@@ -15,6 +15,8 @@ module.exports = {
         Oswald: ["Oswald", "sans-serif"],
         Quattrocento: ["Quattrocento", "serif"],
         Lustria: ['Lustria', "serif"],
+        mon : ['Montserrat', "sans-serif"],
+        pop : ['Poppins', "sans-serif"],
       },
       colors: {
         primary: "#fd0ec1",

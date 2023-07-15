@@ -29,7 +29,7 @@ export default function Contact() {
         }
     }, [controls, inView]);
     return (
-        <motion.div className=' mx-auto px-3 mb-10' ref={ref}
+        <motion.div className=' mx-auto font-mon px-3 mb-10' ref={ref}
             animate={controls}
             initial="hidden"
             transition={{ duration: 1.5 }}
@@ -1307,6 +1307,7 @@ export default function Contact() {
                                     <div className="w-full">
                                         <h4 className="text-dark mb-1 text-xl font-bold">Our Location</h4>
                                         <p className="text-body-color text-base md:text-lg">
+                                            Hammer Publishers Pvt. Ltd. <br/>
                                         206, Samrat Bhawan, Ranjit Nagar
 Commercial Complex, Behind Inox Cinema
 New Delhi - 110008
