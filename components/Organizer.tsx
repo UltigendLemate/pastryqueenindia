@@ -34,7 +34,7 @@ const Organizer = (props : Props) => {
                         <div className=" flex justify-between py-3 bg-white top-0 right-0">
     
                             <p className='text-xl font-semibold'>Know More</p>
-                            <button className="text-gray-600 hover:text-gray-800" onClick={() => setShowModal(false)}>
+                            <button className="text-gray-600  hover:text-gray-800" onClick={() => setShowModal(false)}>
                                 <FaTimes className="text-primary text-3xl hover:text-pink-300" />
                             </button>
                         </div>

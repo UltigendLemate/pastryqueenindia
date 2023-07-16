@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -18,33 +19,40 @@ const Footer = () => {
                 <span className="block uppercase text-blueGray-500 text-lg mb-2 font-bold text-primary ">Useful Links</span>
                 <ul className="list-unstyled">
                   <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">About Us</a>
+                    <Link href={"/#About"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">About Us</Link>
                   </li>
                   <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Participants</a>
+                    {/* <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="/jpic.pdf">Rules And Regulations</Link> */}
+                    <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="/#Organizers">Organizers</Link>
                   </li>
                   <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Gallery</a>
+                    <Link href={"/#Sponsors"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Sponsors</Link>
                   </li>
                   <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="/JPIC Guidelines & Rules.pdf">Rules And Regulations</a>
+                    <Link href={"/#Participants"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Participants</Link>
                   </li>
+
+
                 </ul>
               </div>
               <div className="my-4 lg:my-0 md:mx-auto">
-                <span className="block uppercase text-blueGray-500 text-lg font-bold text-primary mb-2">Other Resources</span>
+                <span className="block uppercase text-blueGray-500 text-lg font-bold text-primary mb-2">Other Links</span>
                 <ul className="list-unstyled">
-                  <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">MIT License</a>
+                <li>
+                    <Link href={"/gallery"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Gallery</Link>
                   </li>
                   <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Terms &amp; Conditions</a>
+                  <Link href={"/#Jury"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Jury</Link>
+
                   </li>
                   <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Privacy Policy</a>
+                  <Link href={"/jpic.pdf"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Rules & Regulations</Link>
+
                   </li>
+
                   <li>
-                    <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Contact Us</a>
+                  <Link href={"/#Contact"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Contact Us</Link>
+
                   </li>
                 </ul>
               </div>
