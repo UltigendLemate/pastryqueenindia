@@ -12,11 +12,12 @@ export default function Contact() {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-        console.log(form.current)
+        // console.log(form.current)
         emailjs.sendForm('service_8vyys27', 'template_6m9mp0v', form.current, 'bIz0Cj4I0MEgua1CU')
             .then((result) => {
+                alert("Your Message has been Sent!")
                 console.log(result.text);
-                console.log(result);
+                // console.log(result);
                 e.target.reset;
             }, (error) => {
                 console.log(error.text);
