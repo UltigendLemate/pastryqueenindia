@@ -11,11 +11,12 @@ export default function Contact() {
     const [ref, inView] = useInView({ threshold: 0.2 });
     const form = useRef();
     const sendEmail = (e) => {
-        // e.preventDefault();
-
+        e.preventDefault();
+        console.log(form.current)
         emailjs.sendForm('service_8vyys27', 'template_6m9mp0v', form.current, 'bIz0Cj4I0MEgua1CU')
             .then((result) => {
                 console.log(result.text);
+                console.log(result);
                 e.target.reset;
             }, (error) => {
                 console.log(error.text);
@@ -61,7 +62,7 @@ export default function Contact() {
                         focus-visible:shadow-none
                         focus:border-primary
                         "
-                                            name="user_name"
+                                            name="from_name"
                                         />
                                     </div>
                                     <div className="mb-4">
@@ -1307,10 +1308,10 @@ export default function Contact() {
                                     <div className="w-full">
                                         <h4 className="text-dark mb-1 text-xl font-bold">Our Location</h4>
                                         <p className="text-body-color text-base md:text-lg">
-                                            Hammer Publishers Pvt. Ltd. <br/>
-                                        206, Samrat Bhawan, Ranjit Nagar
-Commercial Complex, Behind Inox Cinema
-New Delhi - 110008
+                                            Hammer Publishers Pvt. Ltd. <br />
+                                            206, Samrat Bhawan, Ranjit Nagar
+                                            Commercial Complex, Behind Inox Cinema
+                                            New Delhi - 110008
                                         </p>
                                     </div>
                                 </div>
