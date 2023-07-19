@@ -121,6 +121,31 @@
      "institute": "/team/5.png",
      "normalText": "",
      "expandedText":"5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
+   },
+   {
+     "id": 21,
+     "name": "Aayushi Sharma",
+     "imagePath": "/images/pi/22.png",
+     "isMentor":false
+   },
+   {
+     "id": 22,
+     "name": "Mentor: Akash",
+     "imagePath": "/images/pi/21.png",
+     "isMentor":true
+   },
+   {
+     "id": 23,
+     "name": "Vedangi Mani Prakash",
+     "imagePath": "/images/pi/23.png",
+     "isMentor":false
+   },
+   {
+     "id": 24,
+     "city": "IICA, New Delhi",
+     "institute": "/team/iica.png",
+     "normalText": "",
+     "expandedText":"5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
    }
 
  ]
