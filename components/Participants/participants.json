@@ -146,7 +146,31 @@
      "institute": "/team/iica.png",
      "normalText": "",
      "expandedText":"5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
-   }
+   },
+   {
+    "id": 25,
+    "name": "Aayush Sharma",
+    "imagePath": "/images/pi/24.png",
+    "isMentor":false
+  },
+  {
+    "id": 26,
+    "name": "Mentor: Umesh Kundaliya",
+    "imagePath": "/images/pi/26.png",
+    "isMentor":true
+  },
+  {
+    "id": 27,
+    "name": "Paras Grover",
+    "imagePath": "/images/pi/25.png",
+    "isMentor":false
+  },
+  {
+    "id": 28,
+    "city": "RIG IHM",
+    "institute": "/team/rig.png"
+    
+  }
 
  ]
  
