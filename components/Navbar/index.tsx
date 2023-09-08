@@ -65,9 +65,12 @@ const Index = () => {
                   </Link>
                 </li>
                 <li className="lg:text-base text-base bg-primary mb-4 lg:mb-0 hover:bg-primary rounded-lg text-black py-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-400">
-                  <button  onClick={() => setShowModal(true)}>
+                  {/* <button  onClick={() => setShowModal(true)}>
                     Register Now!
-                  </button>
+                  </button> */}
+                  <Link href="https://tour.jrpastryindiancup.com" onClick={() => setNavbar(!navbar)}>
+                    Virtual Tour
+                  </Link>
                 </li>
               </ul>
             </div>
