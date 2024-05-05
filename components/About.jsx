@@ -73,14 +73,16 @@ export default function About() {
 
         </div>
         <div>
-          <Image ref={ref} width={600} height={600}
-            animate={controls}
+
+            <Image ref={ref} width={600} height={600}
             initial="hidden"
-            transition={{ duration: 0.8 }}
+            animate={controls}
+            transition={{ duration: 1.5 }}
             variants={{
               visible: { opacity: 1, x: 0 },
               hidden: { opacity: 0, x: -100 },
-            }} src="/images/DSC_7840.jpg" alt="" className='rounded-md max-h-96 object-cover' /></div>
+            }} src="/images/DSC_7840.jpg" alt="" className='rounded-md max-h-96 object-cover hidden md:block' />
+            </div>
 
         
       </motion.div>
