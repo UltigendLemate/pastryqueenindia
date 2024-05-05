@@ -37,7 +37,7 @@ const JuryCard = (props: Props) => {
     
                             <p className='text-xl font-semibold'>Know More</p>
                             <button className="text-gray-600 hover:text-gray-800" onClick={() => setShowModal(false)}>
-                                <FaTimes className="text-primary text-3xl hover:text-pink-300" />
+                                <FaTimes className="text-primary text-3xl hover:text-green-300" />
                             </button>
                         </div>
                         <p className="xl:text-sm 2xl:text-lg" dangerouslySetInnerHTML={{__html: props.text}}></p>

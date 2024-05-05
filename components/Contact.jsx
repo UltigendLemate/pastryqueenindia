@@ -31,7 +31,7 @@ export default function Contact() {
         }
     }, [controls, inView]);
     return (
-        <motion.div id='Contact' className=' mx-auto font-mon px-3 mb-10' ref={ref}
+        <motion.div id='Contact' className=' mx-auto font-mon px-3 py-5 mb-10' ref={ref}
             animate={controls}
             initial="hidden"
             transition={{ duration: 1.5 }}
@@ -42,7 +42,7 @@ export default function Contact() {
 
             <h1 className='font-ProzaLibre  text-5xl md:text-7xl text-primary  text-center special-font'>CONTACT US</h1>
 
-            <section className="bg-white py-5 overflow-hidden relative z-10 mt-7">
+            <section className="bg-white py-5 overflow-hidden relative z-10 md:mt-7">
                 <div className="container mx-auto max-w-screen-xl ">
                     <div className="flex flex-wrap lg:justify-between w-full flex-col-reverse md:flex-row px-4 md:px-0  -mr-4">
                         <div className="w-full mx-2 mt-7 md:mt-0 lg:w-1/2 xl:w-[50%] px-4 -ml-px  md:ml-10">
@@ -128,7 +128,7 @@ export default function Contact() {
                                             value="Send"
                                             onClick={sendEmail}
                                             className="
-                                            lg:text-base text-base w-full bg-primary mb-2 lg:mb-0 hover:bg-pink-700 rounded-lg text-black p-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-pink-500 underline-offset-8 lg:hover:text-white transition-all duration-40
+                                            lg:text-base text-base w-full bg-primary mb-2 lg:mb-0 hover:bg-green-700 rounded-lg text-black p-2 lg:px-6 text-center font-semibold hover:cursor-pointer decoration-green-500 underline-offset-8 lg:hover:text-white transition-all duration-40
                         "
                                         >
                                             Send Message
@@ -1309,10 +1309,8 @@ export default function Contact() {
                                     <div className="w-full">
                                         <h4 className="text-dark mb-1 text-xl font-bold">Our Location</h4>
                                         <p className="text-body-color text-base md:text-lg">
-                                            Hammer Publishers Pvt. Ltd. <br />
-                                            206, Samrat Bhawan, Ranjit Nagar
-                                            Commercial Complex, Behind Inox Cinema
-                                            New Delhi - 110008
+                                        Hammer Management & Marketing Services   <br />
+                                            M-68, Guru Harkishan Nagar, New Delhi - 110087
                                         </p>
                                     </div>
                                 </div>

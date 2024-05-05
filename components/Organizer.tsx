@@ -23,7 +23,7 @@ const Organizer = (props : Props) => {
     <div className="max-w-xs md:max-w-xl  mb-5 sm:mb-0 mx-auto p-2 sm:p-5 shadow-xl  bg-white rounded-md overflow-hidden ">
     <div className="flex w-full  h-32 sm:h-36 justify-center">
         <Link href={props.link}>
-      <img src={props.img} alt="Image1" className='w-80 p-4' />
+      <img src={props.img} alt="Image1" className={`w-80 p-4 ${props.img.includes('ihe.jpg') && "bg-gray-600"}`} />
       </Link>
     </div> <div className="p-4">
       <p className="text-gray-800 text-xs md:text-sm mb-2">{props.mini}<span className='text-primary cursor-pointer' onClick={() => setShowModal(true)}> Know More</span></p>
@@ -35,7 +35,7 @@ const Organizer = (props : Props) => {
     
                             <p className='text-xl font-semibold'>Know More</p>
                             <button className="text-gray-600  hover:text-gray-800" onClick={() => setShowModal(false)}>
-                                <FaTimes className="text-primary text-3xl hover:text-pink-300" />
+                                <FaTimes className="text-primary text-3xl hover:text-green-300" />
                             </button>
                         </div>
                         <p className="xl:text-sm 2xl:text-lg">{props.text}</p>

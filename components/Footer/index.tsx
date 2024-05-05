@@ -25,12 +25,12 @@ const Footer = () => {
                     {/* <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="/jpic.pdf">Rules And Regulations</Link> */}
                     <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="/#Organizers">Organizers</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href={"/#Sponsors"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Sponsors</Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href={"/#Participants"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Participants</Link>
-                  </li>
+                  </li> */}
 
 
                 </ul>
@@ -38,20 +38,20 @@ const Footer = () => {
               <div className="my-4 lg:my-0 md:mx-auto">
                 <span className="block uppercase text-blueGray-500 text-lg font-bold text-primary mb-2">Other Links</span>
                 <ul className="list-unstyled">
-                <li>
+                  {/* <li>
                     <Link href={"/gallery"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Gallery</Link>
-                  </li>
+                  </li> */}
                   <li>
-                  <Link href={"/#Jury"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Jury</Link>
+                    <Link href={"/#Jury"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Jury</Link>
 
                   </li>
                   <li>
-                  <Link href={"/jpic.pdf"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Rules & Regulations</Link>
+                    <Link href={"/pqirules.pdf"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Rules & Regulations</Link>
 
                   </li>
 
                   <li>
-                  <Link href={"/#Contact"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Contact Us</Link>
+                    <Link href={"/#Contact"} className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Contact Us</Link>
 
                   </li>
                 </ul>
@@ -63,7 +63,7 @@ const Footer = () => {
         <div className="flex flex-wrap items-center md:justify-between justify-center">
           <div className="w-full md:w-4/12 px-4 mx-auto text-center">
             <div className="text-sm text-blueGray-500 font-semibold py-1">
-              Copyright © <span id="get-current-year">Junior Pastry Indian Cup 2023</span>
+              Copyright © <span id="get-current-year">Pastry Queen Indian Cup 2024</span>
 
             </div>
           </div>

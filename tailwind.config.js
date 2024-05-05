@@ -19,7 +19,7 @@ module.exports = {
         pop : ['Poppins', "sans-serif"],
       },
       colors: {
-        primary: "#fd0ec1",
+        primary: "#689A9B",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

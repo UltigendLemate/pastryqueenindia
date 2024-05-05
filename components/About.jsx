@@ -31,17 +31,19 @@ export default function About() {
         variants={{
           visible: { opacity: 1, y: 0 },
           hidden: { opacity: 0, y: 60 },
-        }} className='text-md'>The objective the Junior Pastry Indian cup is to set up a training ground for large international events,
-        while making it entertaining and showcasing the talents and future of younger generation pastry-chefs.
-        By spotlighting them, we hope to engender a sense of belonging and valuable feelings of goodwill,
-        quality, passion, creativity, collaboration and respect for colleagues. <br/><br/>
+        }} className='text-md'>The objective the Pastry Queen India is to set up a training ground for large
+        international events, while making it entertaining and showcasing the talents and
+        future of younger generation pastry-chefs. By spotlighting them, we hope to
+        engender a sense of belonging and valuable feelings of goodwill, quality,
+        passion, creativity, collaboration and respect for colleagues.
+        All are part of the ethics underpinning the sector, giving it solid roots and a
+        constructive vision for the future. It will be an opportunity to share experiences
+        and a platform for growth for young people who represent the future of the
+        international pastry-making sector. It is the Pastry event with a vital role to play in achieving a career at the highest
+        
+        of technical standards.<br/><br/>
 
-        All are part of the ethics underpinning the sector, giving it solid roots and a constructive vision for the
-        future. It will be an opportunity to share experiences and a platform for growth for young people who
-        represent the future of the international pastry-making sector. <br/> <br/>
-
-        It is the Pastry event with a vital role to play in achieving a career at the highest of technical standards.
-        Junior Pastry Indian Cup 2023&apos; is a team event where two competitors and one mentor form a team. The winning team, along with their mentor, will have the incredible opportunity to represent India at the&apos;Junior Pastry World Cup 2024&apos; in SIGEP 2024 show Rimini, Italy, with all travel and accommodation expenses covered. The national team will be selected during the event on August 2-3, 2023, at India Expo Centre & Mart, Greater Noida, NCR, India. 
+This competition is your chance to shine! Whether you excel in plated desserts or work wonders with chocolate creations, Pastry Queen India provides the perfect platform to showcase your artistry. Each team, consisting of a female pastry chef and a team manager, will be tasked with interpreting the theme of <b>&quot;revolutionary women&quot;</b> through their delectable creations.
 
 
         <Link href="/register.pdf" className="lg:text-base text-base  lg:mb-0  rounded-lg text-primary p-2 md:m-3 lg:px-1 font-semibold hover:cursor-pointer decoration-primary underline-offset-8 underline lg:hover:text-black transition-all duration-400 block md:inline">
@@ -66,7 +68,7 @@ export default function About() {
           variants={{
             visible: { opacity: 1, x: 0 },
             hidden: { opacity: 0, x: -100 },
-          }} src="/pics/IMG_4232.webp" alt="" className='rounded-md' /></div>
+          }} src="/images/DSC_7897.jpg" alt="" className='rounded-md max-h-96 object-cover' /></div>
 
         <div>
           <Image ref={ref} width={600} height={600}
@@ -76,7 +78,7 @@ export default function About() {
             variants={{
               visible: { opacity: 1, x: 0 },
               hidden: { opacity: 0, x: 100 },
-            }} src="/pics/IMG_4439.webp" alt="" className='rounded-md hidden md:block' />
+            }} src="/images/DSC_8053.jpg" alt="" className='rounded-md max-h-96 object-cover hidden md:block' />
 
         </div>
       </motion.div>

@@ -40,9 +40,9 @@ const Index = () => {  const [showPopup, setShowPopup] = useState(false);
            ? (
             
          
-          <div  className="card mx-auto rounded-md bg-gradient-to-t from-transparent   to-rose-300  relative max-w-md flex justify-center  mx-auto w-full">
+          <div  className="card mx-auto rounded-md bg-gradient-to-t from-transparent   to-primary/80  relative max-w-md flex justify-center  mx-auto w-full">
             <img alt='img' src={item.imagePath}  className='w-full p-3 h-full'/>
-            <p className='absolute bottom-5 left-50  text-center p-1 bg-pink-700 rounded-xl  text-white px-3 text-sm font-semibold'>{item.name}</p>
+            <p className='absolute bottom-5 left-50  text-center p-1 bg-green-700 rounded-xl  text-white px-3 text-sm font-semibold'>{item.name}</p>
 
           </div>
           
@@ -52,9 +52,9 @@ const Index = () => {  const [showPopup, setShowPopup] = useState(false);
           : 
           item.id % 4 !== 0 && item.isMentor==true?
           (
-            <div  className="card rounded-md border-t-[3px] border-l-[3px] border-r-[3px] border-l-yellow-300 border-r-yellow-300  border-t-yellow-300 bg-gradient-to-t from-transparent   to-rose-300  relative max-w-md flex justify-center  mx-auto w-full">
+            <div  className="card rounded-md border-t-[3px] border-l-[3px] border-r-[3px] border-l-yellow-300 border-r-yellow-300  border-t-yellow-300 bg-gradient-to-t from-transparent   to-primary  relative max-w-md flex justify-center  mx-auto w-full">
             <img alt='img' src={item.imagePath}  className='w-full p-3 h-full'/>
-            <p className='absolute bottom-5 left-50  text-center p-1 bg-pink-700 rounded-xl  text-white px-3 text-sm font-semibold'>{item.name}</p>
+            <p className='absolute bottom-5 left-50  text-center p-1 bg-green-700 rounded-xl  text-white px-3 text-sm font-semibold'>{item.name}</p>
 
           </div>
           )

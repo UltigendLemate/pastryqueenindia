@@ -37,7 +37,7 @@ export default function Sponsors() {
     const [showModal3, setShowModal3] = React.useState(false);
     return (
         <div className='bg-white text-black flex items-center flex-col'>
-            <h1 className=' text-5xl md:text-7xl text-pink-600 mb-4 special-font'>SPONSORS</h1>
+            <h1 className=' text-5xl md:text-7xl text-green-600 mb-4 special-font'>SPONSORS</h1>
             {/* diamond sponsor  */}
             <div className="flex lg:flex-row flex-col" >
                 <motion.div ref={ref1}
@@ -52,10 +52,10 @@ export default function Sponsors() {
                         <Image alt='' src={Trial} width={2400} height={2400} className='' />
                     </div>
                     <div className='flex flex-col lg:justify-start justify-center mx-4'>
-                        <div className='text-2xl text-pink-600 font-Lustria font-semibold lg:mb-4 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY</div>
+                        <div className='text-2xl text-green-600 font-Lustria font-semibold lg:mb-4 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY</div>
                         <div className='text-sm md:text-base font-Quattrocento'>
                             Calling all pastry enthusiasts! The ultimate pastry competition awaits you! Show off your culinary skills and create mouthwatering masterpieces that will leave taste buds dancing. From delectable cakes to delicate pastries.mollitia. Veniam illum eaque sit natus ab nisi sequi repudiandae vero adipisci
-                            <button className='text-pink-600 ml-2' onClick={() => setShowModal1(true)}>Read More</button>
+                            <button className='text-green-600 ml-2' onClick={() => setShowModal1(true)}>Read More</button>
                         </div>
                     </div>
                 </motion.div>
@@ -74,10 +74,10 @@ export default function Sponsors() {
                         </div>
 
                         <div className='flex flex-col lg:justify-start justify-center mx-4'>
-                            <div className='text-lg text-pink-600 font-Lustria font-semibold lg:mb-2 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY1</div>
+                            <div className='text-lg text-green-600 font-Lustria font-semibold lg:mb-2 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY1</div>
                             <div className='text-sm font-Quattrocento'>
                                 Calling all pastry enthusiasts! The ultimate pastry competition awaits you! Show off your culinary
-                                <button className='text-pink-600 ml-2' onClick={() => setShowModal2(true)}>Read More</button>
+                                <button className='text-green-600 ml-2' onClick={() => setShowModal2(true)}>Read More</button>
                             </div>
                         </div>
                     </div>
@@ -86,10 +86,10 @@ export default function Sponsors() {
                             <Image alt='' src={Trial} width={420} height={420} className='max-w-[100%]' />
                         </div>
                         <div className='flex flex-col lg:justify-start justify-center mx-4'>
-                            <div className='text-lg text-pink-600 font-Lustria font-semibold lg:mb-2 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY2</div>
+                            <div className='text-lg text-green-600 font-Lustria font-semibold lg:mb-2 my-3 lg:my-0 mx-auto lg:mx-0'>QUINCY2</div>
                             <div className='text-sm font-Quattrocento'>
                                 Calling all pastry enthusiasts! The ultimate pastry competition awaits you! Show off your culinary.
-                                <button className='text-pink-600 ml-2' onClick={() => setShowModal3(true)}>Read More</button>
+                                <button className='text-green-600 ml-2' onClick={() => setShowModal3(true)}>Read More</button>
                             </div>
                         </div>
                     </div>
@@ -121,7 +121,7 @@ export default function Sponsors() {
                             {/* <p>{}</p> */}
                             <p className='text-xl font-semibold'>Modal 1</p>
                             <button className="text-gray-600 hover:text-gray-800" onClick={() => setShowModal1(false)}>
-                                <FaTimes className="text-primary text-3xl hover:text-pink-300" />
+                                <FaTimes className="text-primary text-3xl hover:text-green-300" />
                             </button>
                         </div>
                         <p className="xl:text-sm 2xl:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil dolorum a natus delectus et consequuntur nostrum ullam. Sit, maxime. Nihil accusamus odit dignissimos? Minima maiores pariatur maxime inventore necessitatibus dolores?
@@ -151,7 +151,7 @@ export default function Sponsors() {
                             {/* <p>{}</p> */}
                             <p className='text-xl font-semibold'>Modal 2</p>
                             <button className="text-gray-600 hover:text-gray-800" onClick={() => setShowModal2(false)}>
-                                <FaTimes className="text-primary text-3xl hover:text-pink-300" />
+                                <FaTimes className="text-primary text-3xl hover:text-green-300" />
                             </button>
                         </div>
                         <p className="xl:text-sm 2xl:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eos harum, reiciendis quibusdam, aliquid officia sequi nihil voluptate facere deleniti dolore pariatur ea nemo voluptatem dolores. Laboriosam, magnam voluptatum. Cupiditate!
@@ -171,7 +171,7 @@ export default function Sponsors() {
                             {/* <p>{}</p> */}
                             <p className='text-xl font-semibold'>Modal 3</p>
                             <button className="text-gray-600 hover:text-gray-800" onClick={() => setShowModal3(false)}>
-                                <FaTimes className="text-primary text-3xl hover:text-pink-300" />
+                                <FaTimes className="text-primary text-3xl hover:text-green-300" />
                             </button>
                         </div>
                         <p className="xl:text-sm 2xl:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eos harum, reiciendis quibusdam, aliquid officia sequi nihil voluptate facere deleniti dolore pariatur ea nemo voluptatem dolores. Laboriosam, magnam voluptatum. Cupiditate!
