@@ -8,9 +8,9 @@ const Hero = (props: Props) => {
   return (
     <div className=' w-[100vw] md:w-[98.8vw] py-16 md:py-2 p-2 relative mt-28   bg-white min-h-[40vh] md:min-h-[90vh] text-primary mainbg grid  justify-center items-center font-pop'>
       <div className="absolute bg-primary text-white z-20 w-full top-0 pt-1">
-      <marquee behaviour="scroll" className="text-2xl">Participate in the &apos;Pastry Queen India 2024&apos;,
+      {/* <marquee behaviour="scroll" className="text-2xl">Participate in the &apos;Pastry Queen India 2024&apos;,
 the National Pastry Team selection for the prestigious
-&apos;The Pastry Queen World Cup&apos; to be held at SIGEP, Italy in 2025.</marquee>
+&apos;The Pastry Queen World Cup&apos; to be held at SIGEP, Italy in 2025.</marquee> */}
       </div>
 
       <div className='absolute w-full h-full bg-black/80 z-0'></div>
