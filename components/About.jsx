@@ -61,17 +61,7 @@ export default function About() {
           visible: { opacity: 1, y: 0 },
           hidden: { opacity: 0, y: 60 },
         }}>
-        <div>
-          <Image ref={ref} width={600} height={600}
-            animate={controls}
-            initial="hidden"
-            transition={{ duration: 0.8 }}
-            variants={{
-              visible: { opacity: 1, x: 0 },
-              hidden: { opacity: 0, x: -100 },
-            }} src="/images/DSC_7840.jpg" alt="" className='rounded-md max-h-96 object-cover' /></div>
-
-        <div>
+          <div>
           <Image ref={ref} width={600} height={600}
             initial="hidden"
             animate={controls}
@@ -82,6 +72,17 @@ export default function About() {
             }} src="/images/DSC_8053.jpg" alt="" className='rounded-md max-h-96 object-cover hidden md:block' />
 
         </div>
+        <div>
+          <Image ref={ref} width={600} height={600}
+            animate={controls}
+            initial="hidden"
+            transition={{ duration: 0.8 }}
+            variants={{
+              visible: { opacity: 1, x: 0 },
+              hidden: { opacity: 0, x: -100 },
+            }} src="/images/DSC_7840.jpg" alt="" className='rounded-md max-h-96 object-cover' /></div>
+
+        
       </motion.div>
 
 
