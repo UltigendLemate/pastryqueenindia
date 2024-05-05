@@ -17,9 +17,9 @@ export default function About() {
   const [ref2, inView2] = useInView({ threshold: 0 });
 
   useEffect(() => {
-      if (inView2) {
-          controls.start("visible");
-      }
+    if (inView2) {
+      controls.start("visible");
+    }
   }, [controls, inView2]);
   return (
     <section ref={ref} id='About' className='bg-white font-mon text-black flex items-center flex-col max-w-screen-xl mx-auto px-5 '>
@@ -27,7 +27,7 @@ export default function About() {
       <motion.p
         animate={controls}
         initial="hidden"
-        transition={{ duration:  1.5 }}
+        transition={{ duration: 1.5 }}
         variants={{
           visible: { opacity: 1, y: 0 },
           hidden: { opacity: 0, y: 60 },
@@ -40,10 +40,10 @@ export default function About() {
         constructive vision for the future. It will be an opportunity to share experiences
         and a platform for growth for young people who represent the future of the
         international pastry-making sector. It is the Pastry event with a vital role to play in achieving a career at the highest
-        
-        of technical standards.<br/><br/>
 
-This competition is your chance to shine! Whether you excel in plated desserts or work wonders with chocolate creations, Pastry Queen India provides the perfect platform to showcase your artistry. Each team, consisting of a female pastry chef and a team manager, will be tasked with interpreting the theme of <b>&quot;revolutionary women&quot;</b> through their delectable creations.
+        of technical standards.<br /><br />
+
+        This competition is your chance to shine! Whether you excel in plated desserts or work wonders with chocolate creations, Pastry Queen India provides the perfect platform to showcase your artistry. Each team, consisting of a female pastry chef and a team manager, will be tasked with interpreting the theme of <b>&quot;revolutionary women&quot;</b> through their delectable creations.
 
 
         <Link href="/register.pdf" className="lg:text-base text-base  lg:mb-0  rounded-lg text-primary p-2 md:m-3 lg:px-1 font-semibold hover:cursor-pointer decoration-primary underline-offset-8 underline lg:hover:text-black transition-all duration-400 block md:inline">
@@ -61,14 +61,15 @@ This competition is your chance to shine! Whether you excel in plated desserts o
           visible: { opacity: 1, y: 0 },
           hidden: { opacity: 0, y: 60 },
         }}>
-        <div><Image ref={ref} width={600} height={600}
-          animate={controls}
-          initial="hidden"
-          transition={{ duration: 0.8 }}
-          variants={{
-            visible: { opacity: 1, x: 0 },
-            hidden: { opacity: 0, x: -100 },
-          }} src="/images/DSC_7897.jpg" alt="" className='rounded-md max-h-96 object-cover' /></div>
+        <div>
+          <Image ref={ref} width={600} height={600}
+            animate={controls}
+            initial="hidden"
+            transition={{ duration: 0.8 }}
+            variants={{
+              visible: { opacity: 1, x: 0 },
+              hidden: { opacity: 0, x: -100 },
+            }} src="/images/DSC_7897.jpg" alt="" className='rounded-md max-h-96 object-cover' /></div>
 
         <div>
           <Image ref={ref} width={600} height={600}
