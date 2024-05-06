@@ -24,7 +24,7 @@ the National Pastry Team selection for the prestigious
 
 
         <div className='text-white text-[1.1rem] mx-auto w-full text-center sm:text-3xl lg:text-5xl font-bold uppercase'>
-          Pastry Queen India Cup 2024
+          Pastry Queen India 2024
         </div>
         <h2 className='text-md p-2 text-center sm:text-2xl md:text-2xl mt-3 font-semibold text-white'>03-04 August 2024, Indian Expo Centre & Mart, Greater Noida, NCR, India</h2>
 
