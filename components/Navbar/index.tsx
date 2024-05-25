@@ -49,11 +49,11 @@ const Index = () => {
                     </div>
                   ))}
                 </div>
-                {/* <li className="lg:text-base text-base mb-4 text-black lg:px-4 lg:mb-0 text-center font-semibold hover:cursor-pointer hover:underline decoration-green-500 underline-offset-8 lg:hover:text-green-500 transition-all duration-400 lg:hover:bg-transparent">
+                <li className="lg:text-base text-base mb-4 text-black lg:px-4 lg:mb-0 text-center font-semibold hover:cursor-pointer hover:underline decoration-green-500 underline-offset-8 lg:hover:text-green-500 transition-all duration-400 lg:hover:bg-transparent">
                   <Link href="/gallery" onClick={() => setNavbar(!navbar)}>
                     Gallery
                   </Link>
-                </li> */}
+                </li>
                 <li className="lg:text-base text-base text-black mx-2 mb-2 px-2 lg:py-2 pb-2 lg:mb-0 text-center font-semibold lg:hover:bg-gray-300 hover:underline-offset-8 decoration-green-500 underline-offset-8 hover:cursor-pointer lg:hover:text-black transition-all duration-400 rounded-lg">
                   <Link href="/pqirules.pdf" onClick={() => setNavbar(!navbar)}>
                     Rules And Regulations

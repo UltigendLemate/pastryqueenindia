@@ -22,7 +22,7 @@ export default function Home() {
       <Hero />
       <About />
       <Organizers />
-      {/* <Sponsors /> */}
+      <Sponsors />
       <Jury/>
       {/* <Participants /> */}
       {/* <div className='fixed w-10 h-10 top-0 left-0 bg-black'> </div> */}

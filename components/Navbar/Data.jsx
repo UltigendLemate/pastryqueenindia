@@ -1,6 +1,6 @@
 const Data = [
     "About", "Organizers", 
-    // "Sponsors",  
+    "Sponsors",  
     "Contact",
 ]
 
