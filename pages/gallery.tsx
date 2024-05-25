@@ -11,8 +11,7 @@ const gallery = (props: Props) => {
   return (
     <>    
     <Navbar/>
-        {/* <h1 className='special text-[3.7rem] bg-white text-center sm:text-7xl md:text-8xl text-primary'>Gallery</h1> */}
-  
+     
         <Gallery/>
        
 

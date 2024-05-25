@@ -16,7 +16,7 @@ const Index = () => {
   return (
     <div>
       <nav className="w-full absolute top-0 left-0 right-0 z-50 bg-white">
-        <div className="justify-between px-4 mx-auto width-screen lg:items-center lg:flex">
+        <div className="justify-between px-4 mx-auto lg:items-center lg:flex">
           <div>
             <div className="flex items-center justify-between py-3  lg:block">
               <Link href="/">
