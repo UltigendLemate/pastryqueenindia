@@ -1,175 +1,131 @@
 [
    {
-     "id": 1,
-     "name": "Shakir Muhammed",
-     "imagePath": "/images/pi/jw1.png",
-     "isMentor":false
+     "teamName" : "ITC Grand Chola",
+     "teamLogo" : "22.png",
+      "teamMembers" : [
+        {
+          "name" : "Deepthi Joji",
+          "imagePath" : "deepthi.png",
+          "description" : "Meet Deepti Joji Joshua, a seasoned Senior Sous Chef specializing in Bakery & Pastry at ITC Grand Chola, Chennai. With a wealth of experience in luxury chocolate boutique management, menu formulation, and pre-opening setups, Deepti brings creativity and expertise to every culinary endeavor. Passionate about food safety and innovation."
+        },
+        {
+          "name" : "Vivek Kadam",
+          "imagePath" : "vivek.png",
+          "description" : "Vivek Kadam, Executive Pastry Chef at ITC Maratha Mumbai, boasts over 25 years of experience. Known for his innovative approach and exceptional skills, he has led pastry teams at Grand Hyatt Mumbai and won numerous awards. Specializes in creative desserts with authentic flavors that appeal globally."
+        }
+      ]
    },
    {
-     "id": 2,
-     "name": "Mentor : Baranidharan",
-     "imagePath": "/images/pi/jw2.png",
-     "isMentor":true
+     "teamName" : "Ecole Ducasse ISH, Gurugram",
+     "teamLogo" : "20.png",
+      "teamMembers" : [
+        {
+          "name" : "Sana Khan",
+          "imagePath" : "sana.png",
+          "description" : "Sana Khan, a dynamic pastry chef renowned for her creativity and precision in crafting delectable desserts. With a Bachelor's in Hotel Management and a diploma in Culinary Arts, Sana's journey includes prestigious internships in UAE and India. Her accolades include multiple awards in culinary competitions and a track record of excellence in culinary education."
+        },
+        {
+          "name" : "Aabhas Jain",
+          "imagePath" : "aabhas.png",
+          "description" : "Aabhas Jain, a visionary pastry chef, is dedicated to elevating Indian pastry on the global stage. With a pioneering spirit, he's featured in renowned publications and mentored at prestigious events. His extensive experience includes leading culinary education and spearheading innovative ventures. Aabhas is committed to sharing his expertise and shaping the future of pastry."
+        }
+      ]
    },
    {
-     "id": 3,
-     "name": "Shubham Thakur",
-     "imagePath": "/images/pi/jw3.png",
-     "isMentor":false
+     "teamName" : "La Lavash",
+     "teamLogo" : "24.jpg",
+      "teamMembers" : [
+        {
+          "name" : "Praniti Jain",
+          "imagePath" : "praniti.png",
+          "description" : "Praniti Jain, a dynamic achiever in the pastry realm, boasts an impressive track record. With accolades such as completing masterclasses in APCA Singapore and assisting renowned chefs, she embodies dedication and skill. Praniti's journey is defined by her relentless pursuit of excellence and her unwavering commitment to pastry craftsmanship."
+        },
+        {
+          "name" : "Sachin Rathod",
+          "imagePath" : "sachin.png",
+          "description" : "Sachin Rathor, currently the Executive Pastry Chef at JW Marriott Aero City, New Delhi, boasts over 17 years of extensive culinary experience. His career includes prestigious positions at Kempinski Hotel Muscat, HYATT ANDAZ, and ITC Welcom Hotel, where he has honed his skills and passion for creating exceptional pastries and desserts."
+        }
+      ]
    },
    {
-     "id": 4,
-     "city": "JW Marriot, Bengaluru",
-     "institute": "/team/8.png",
-     "normalText": "",
-     "expandedText":"Hello bhai 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
-     },
-   {
-     "id": 5,
-     "name": "Prerna Kothari",
-     "imagePath": "/images/pi/whitecaps1.png",
-     "isMentor":false
-   },
-   {
-     "id": 6,
-     "name": "Mentor: Ravi Dhuriya",
-     "imagePath": "/images/pi/whitecaps2.png",
-     "isMentor":true
-   },
-   {
-     "id": 7,
-     "name": "Syed Sadiya",
-     "imagePath": "/images/pi/whitecaps3.png",
-     "isMentor":false
-   },
-   {
-     "id": 8,
-     "city": "WhiteCaps,  Bengaluru",
-     "institute": "/team/6.png",
-     "normalText": ""
-   },
-   {
-     "id": 9,
-     "name": "Avantika Katiyar",
-     "imagePath": "/images/pi/lcb1.png",
-     "isMentor":false
-   },
-   {
-     "id": 10,
-     "name": "Mentor: Tarun Kandpal",
-     "imagePath": "/images/pi/lcb2.png",
-     "isMentor":true
-   },
-   {
-     "id": 11,
-     "name": "Vanshika Aggarwal",
-     "imagePath": "/images/pi/lcb3.png",
-     "isMentor":false
-   },
-   {
-     "id": 12,
-     "city": "LCB, Gurgaon",
-     "institute": "/team/7.png",
-     "normalText": ""
-   },
-   {
-     "id": 13,
-     "name": "Anant Agarwal",
-     "imagePath": "/images/pi/ish1.png",
-     "isMentor":false
-   },
-   {
-     "id": 14,
-     "name": "Mentor: Aabhas Jain",
-     "imagePath": "/images/pi/ish2.png",
-     "isMentor":true
-   },
-   {
-     "id": 15,
-     "name": "Khushi Popli",
-     "imagePath": "/images/pi/ish3.png",
-     "isMentor":false
-   },
-   {
-     "id": 16,
-     "city": "ISH, Gurugram",
-     "institute": "/team/13.png",
-     "normalText": "",
-     "expandedText":"4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
-   },
-   {
-     "id": 17,
-     "name": "Gopesh SIngh Grewal",
-     "imagePath": "/images/pi/apca1.png",
-     "isMentor":false
-   },
-   {
-     "id": 18,
-     "name": "Mentor: Dean Rodrigues",
-     "imagePath": "/images/pi/apca2.png",
-     "isMentor":true
-   },
-   {
-     "id": 19,
-     "name": "Rubani Singh",
-     "imagePath": "/images/pi/apca3.png",
-     "isMentor":false
-   },
-   {
-     "id": 20,
-     "city": "APCA, Mumbai",
-     "institute": "/team/5.png",
-     "normalText": "",
-     "expandedText":"5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
-   },
-   {
-     "id": 21,
-     "name": "Aayushi Sharma",
-     "imagePath": "/images/pi/22.png",
-     "isMentor":false
-   },
-   {
-     "id": 22,
-     "name": "Mentor: Akash",
-     "imagePath": "/images/pi/21.png",
-     "isMentor":true
-   },
-   {
-     "id": 23,
-     "name": "Vedangi Mani Prakash",
-     "imagePath": "/images/pi/23.png",
-     "isMentor":false
-   },
-   {
-     "id": 24,
-     "city": "IICA, New Delhi",
-     "institute": "/team/iica.png",
-     "normalText": "",
-     "expandedText":"5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero qui ex aliquid exercitationem quo nostrum consequatur sit neque molestiae libero eum, beatae maiores. Dolores, officiis, cumque nemo illo inventore ex sequi labore sunt veniam, asperiores pariatur velit impedit non debitis provident. Rerum explicabo laborum reprehenderit animi, voluptate eaque iusto."
-   },
-   {
-    "id": 25,
-    "name": "Aayush Sharma",
-    "imagePath": "/images/pi/24.png",
-    "isMentor":false
+    "teamName" : "APCA Gururgam",
+    "teamLogo" : "21.png",
+     "teamMembers" : [
+       {
+         "name" : "Juhi Chugh",
+         "imagePath" : "juhi.png",
+         "description" : "Meet Juhi Chugh, an accomplished pastry chef known for her innovative creations and meticulous attention to detail. With a Bachelor's in Business Administration and advanced pastry diplomas from the Academy of Pastry and Culinary Arts, she brings a wealth of expertise to her role. Juhi's passion for pushing culinary boundaries shines through in every dessert she creates."
+       },
+       {
+         "name" : "Sehaj Ghuman",
+         "imagePath" : "sehaj.png",
+         "description" : "Sehaj Ghuman is an accomplished Pastry Chef renowned for his exceptional talent and accolades, including winning the India Pastry Cup 2023 and receiving the Best Originality award at Mondial des Arts Sucre 2022 in Paris. With a strong foundation in kitchen management and a dedication to pushing culinary boundaries, Sehaj consistently delivers unforgettable experiences in the world of pastry arts."
+       }
+     ]
   },
   {
-    "id": 26,
-    "name": "Mentor: Umesh Kundaliya",
-    "imagePath": "/images/pi/26.png",
-    "isMentor":true
+    "teamName" : "100 Folds Academy",
+    "teamLogo" : "17.png",
+     "teamMembers" : [
+       {
+         "name" : "Veena Anerao",
+         "imagePath" : "veena.png",
+         "description" : "Assistant Director at 100 Folds Culinary Guild, Veena Anerao brings over 8 years of culinary expertise. Known for her exceptional communication and training skills, she excels in pastry arts and curriculum development. Veena is a Double Gold award winner at the Great Indian Culinary Challenge"
+       },
+       {
+         "name" : "Alisha Faleiro",
+         "imagePath" : "alisha.png",
+         "description" : "Alisha Faleiro, Director at 100 Folds Academy, Hyderabad, brings over 10 years of culinary expertise. An award-winning pastry chef and gold medalist from Oberoi Center of Learning and Development, she excels in modern pastry techniques, team training, and culinary innovation, with a passion for excellence and creativity."
+       }
+     ]
   },
   {
-    "id": 27,
-    "name": "Arnav Shisodia",
-    "imagePath": "/images/pi/arnav.png",
-    "isMentor":false
+    "teamName" : "APCA Bangalore",
+    "teamLogo" : "23.png",
+     "teamMembers" : [
+       {
+         "name" : "Kareena M Dadlani",
+         "imagePath" : "kareena.png",
+         "description" : "Kareena M Dadlani, a dedicated pastry chef instructor, shines with a remarkable journey marked by achievements. From assisting Team India at Mondial des Arts Sucrés to contributing to the victorious Indian selections for Asia Pastry Cup 2023, Kareena's passion and expertise inspire the next generation of pastry chefs."
+       },
+       {
+         "name" : "Pratyay Keny",
+         "imagePath" : "pratyay.png",
+         "description" : "Pratyay Keny, an accomplished Pastry Chef, boasts a remarkable track record of achievements. With honors like the Best Originality award at Mondial des Arts Sucrés 2022 in Paris and a notable second place in the Nestle Young Chef Contest, Pratyay's dedication to culinary excellence shines through in every creation."
+       }
+     ]
   },
   {
-    "id": 28,
-    "city": "RIG IHM",
-    "institute": "/team/rig.png"
-    
+    "teamName" : "Le Melilleure Gurugram",
+    "teamLogo" : "18.png",
+     "teamMembers" : [
+       {
+         "name" : "Kashish Sharma",
+         "imagePath" : "kashish.png",
+         "description" : "Kashish Sharma, an accomplished pastry chef with international experience, is the Assistant Pastry Chef at the Academy of Pastry and Culinary Arts. A Le Cordon Bleu graduate, she specializes in innovative desserts, project management, and supporting prestigious pastry competitions. Kashish is dedicated to culinary excellence and creativity."
+       },
+       {
+         "name" : "Yogesh Sharma",
+         "imagePath" : "yogesh.png",
+         "description" : "Yogesh Sharma, Head Chef at La Meilleure, brings 9 years of culinary excellence to the kitchen. With a strong background in pastries and desserts, he is known for his innovative creations and effective team leadership. Yogesh has extensive teaching experience and has represented India in international pastry competitions."
+       }
+     ]
+  }, 
+  {
+    "teamName" : "Brix Academy",
+    "teamLogo" : "19.png",
+     "teamMembers" : [
+       {
+         "name" : "Areeba Hadi",
+         "imagePath" : "areeba.png",
+         "description" : "Areeba Hadi embarks on a journey to master the art of pastry creation, combining expertise with boundless creativity. From crafting intricate entremets to sculpting delicate chocolate displays, her dedication to excellence and passion for sharing knowledge inspire a new era of pastry chefs. Join her in sweetening the world."
+       },
+       {
+         "name" : "Ankur Malik",
+         "imagePath" : "ankur.png",
+         "description" : "Ankur Malik, Founder and Director of Academics at Brix Academy for European Pastry & Culinary Arts, is a visionary pastry chef dedicated to elevating pastry craftsmanship in Lucknow. Driven by passion and innovation, Ankur established Brix Academy to empower aspiring bakers with essential skills and knowledge to create exceptional delights."
+       }
+     ]
   }
 
  ]

@@ -1,25 +1,65 @@
-import Image from 'next/image'
-import React from 'react'
-import image1 from "../images/ihe.png"
+import Image from "next/image";
+import React from "react";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import { Separator } from "@/components/ui/separator"
 
-const participantCard = () => {
+
+type participantType = {
+  teamName: string;
+  teamLogo: string;
+  teamMembers: {
+    name: string;
+    imagePath: string;
+    description: string;
+  }[];
+};
+const ParticipantCard = ({ p }: { p: participantType }) => {
   return (
-    <div>
-      <div className="grid gap-12 grid-cols-2">
-        <div className="p-1 rounded-xl bg-white group sm:flex space-x-6  bg-opacity-50 shadow-xl hover:rounded-2xl">
-          <Image src={image1} alt="art cover" loading="lazy" width="1000" height="667" className="h-56 sm:h-full w-full sm:w-5/12 object-cover object-top rounded-lg transition duration-500 group-hover:rounded-xl"/>
-          <div className="sm:w-7/12 pl-0 p-5">
-            <div className="space-y-2">
-              <div className="space-y-4">
-                <h4 className="text-2xl font-semibold text-cyan-900">Provident de illo eveniet commodi fuga fugiat laboriosam expedita.</h4>
-                <p className="text-gray-600">Laborum saepe laudantium in, voluptates ex placeat quo harum aliquam totam, doloribus eum impedit atque! Temporibus...</p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div className="max-w-6xl lg:p-5 shadow-lg py-5 mx-auto grid lg:grid-cols-3 gap-10 my-3 px-8">
+      <div className="lg:items-center grid gap-0">
+        <img
+          src={`/teams/${p.teamLogo}`}
+          alt="team logo"
+          className="h-fit"
+        />
+        {/* <h5 className='text-2xl text-center'>{p.teamName}</h5> */}
       </div>
-    </div>
-  )
-}
+      {p.teamMembers.map((member,index) => (
+        <div
+          key={member.name}
+          className={`card mx-auto rounded-md bg-gradient-to-t from-transparent   to-primary/80  relative max-w-md flex justify-center   w-full ${index==1? "border-yellow-300 border-4" : " "}`}
+        >
+          <img
+            alt="img"
+            src={`/teams/${member.imagePath}`}
+            className="w-full p-3 h-full"
+          />
+          <p className="absolute bottom-5 left-5  text-center p-1 bg-green-700 rounded-xl  text-white px-3 text-sm font-semibold">
+            Chef {member.name}
+          </p>
 
-export default participantCard
+          <Dialog>
+            <DialogTrigger asChild>
+              <p className="absolute bottom-5 right-5  text-center p-1 bg-black rounded-md cursor-pointer  text-white px-3 text-sm font-semibold">
+                Know More
+              </p>
+            </DialogTrigger>
+            <DialogContent className="bg-white text-black">
+              <DialogHeader>
+                <DialogDescription>{member.description}</DialogDescription>
+              </DialogHeader>
+            </DialogContent>
+          </Dialog>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default ParticipantCard;
