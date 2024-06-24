@@ -110,22 +110,6 @@
          "description" : "Yogesh Sharma, Head Chef at La Meilleure, brings 9 years of culinary excellence to the kitchen. With a strong background in pastries and desserts, he is known for his innovative creations and effective team leadership. Yogesh has extensive teaching experience and has represented India in international pastry competitions."
        }
      ]
-  }, 
-  {
-    "teamName" : "Brix Academy",
-    "teamLogo" : "19.png",
-     "teamMembers" : [
-       {
-         "name" : "Areeba Hadi",
-         "imagePath" : "areeba.png",
-         "description" : "Areeba Hadi embarks on a journey to master the art of pastry creation, combining expertise with boundless creativity. From crafting intricate entremets to sculpting delicate chocolate displays, her dedication to excellence and passion for sharing knowledge inspire a new era of pastry chefs. Join her in sweetening the world."
-       },
-       {
-         "name" : "Ankur Malik",
-         "imagePath" : "ankur.png",
-         "description" : "Ankur Malik, Founder and Director of Academics at Brix Academy for European Pastry & Culinary Arts, is a visionary pastry chef dedicated to elevating pastry craftsmanship in Lucknow. Driven by passion and innovation, Ankur established Brix Academy to empower aspiring bakers with essential skills and knowledge to create exceptional delights."
-       }
-     ]
   }
 
  ]
