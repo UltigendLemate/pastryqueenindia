@@ -16,10 +16,10 @@ the National Pastry Team selection for the prestigious
       <div className='absolute w-full h-full bg-black/80 z-0'></div>
       <div className='z-20'>
 
-        {/* <div className='flex flex-col text-center text-white text-3xl font-extrabold'>
+        <div className='flex flex-col text-center text-white text-3xl font-extrabold'>
           <img src="/pp/elle.svg" className='mx-auto  h-20 md:h-32 my-4  rounded-xl ' alt="" />
           <p className='text-lg md:text-2xl  font-bold'>Presents</p>
-        </div> */}
+        </div>
         <h1 className='special-font text-[3.4rem] text-center sm:text-7xl mb-3 md:text-8xl lg:text-9xl  text-primary z-50'>PASTRY EVENT</h1>
 
 
@@ -28,11 +28,11 @@ the National Pastry Team selection for the prestigious
         </div>
         <h2 className='text-md p-2 text-center sm:text-2xl md:text-2xl mt-3 font-semibold text-white'>03-04 August 2024, Indian Expo Centre & Mart, Greater Noida, NCR, India</h2>
 
-        {/* <div className=' text-center text-white mt-5 italic text-md md:text-2xl font-semibold'>
+        <div className=' text-center text-white mt-5 italic text-md md:text-2xl font-semibold'>
          
           Powered By
           <img src="/pp/delta.png" className='ml-5 mb-3 inline h-20  md:h-28 rounded-xl' alt="" />
-        </div> */}
+        </div>
       </div>
     </div>
   )
