@@ -26,7 +26,7 @@ const Organizer = (props : Props) => {
       <img src={props.img} alt="Image1" className={`w-80 p-4 ${props.img.includes('ihe.jpg') && "bg-gray-600"}`} />
       </Link>
     </div> <div className="p-4">
-      <p className="text-gray-800 text-xs md:text-sm mb-2 mt-2">{props.mini}<span className='text-primary cursor-pointer' onClick={() => setShowModal(true)}> Know More</span></p>
+      <p className="text-gray-800 text-xs md:text-sm mb-2 mt-2P">{props.mini}<span className='text-primary cursor-pointer' onClick={() => setShowModal(true)}> Know More</span></p>
     </div>
     {showModal && (
                 <div className="fixed w-screen h-[100vh]  bottom-0 left-0 z-[999] flex items-center justify-center bg-white bg-opacity-10 backdrop-blur-md overflow-y-hidden">
