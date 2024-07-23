@@ -33,7 +33,7 @@ const Org = () => {
       }} className=" font-mon relative z-0" id='Organizers'  >
       <img src="/pics/IMG_3980.webp" className=' opacity-50 shadow-2xl shadow-black absolute w-full h-full -z-10' alt="" />
       <h2 className='z-20 mx-auto text-5xl md:text-7xl text-primary mb-4  mt-10 text-center special-font'>The Organizers</h2>
-      <div className="sm:grid sm:grid-cols-2   mb-10 max-w-6xl m-auto gap-4 md:gap-8 p-4 z-40 ">
+      <div className="sm:grid sm:grid-cols-3   mb-10 md:px-10 m-auto gap-4 md:gap-8 p-4 z-40 ">
 
         {
           data.map((item) => (
