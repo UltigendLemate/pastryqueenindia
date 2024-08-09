@@ -8,6 +8,15 @@ const Gallery = () => {
     <>
       <h1 className='special-font text-[3.7rem] pb-5 mt-24 bg-white text-center sm:text-7xl md:text-8xl text-primary'>Gallery</h1>
       <div className='grid grid-cols-2 md:grid-cols-4 px-3 bg-white gap-3 justify-center items-center'>
+      <img src="/pqw/3.jpg" alt="" className='object-cover rounded-md col-span-2 md:row-span-2 md:object-cover md:w-full md:h-full' />
+        <img src="/pqw/2.jpg" alt="" className='object-cover h-full rounded-md col-span-1 row-span-2 ' />
+        <img src="/pqw/1.jpg" alt="" className='object-cover h-full rounded-md col-span-1 row-span-2' />
+        <img src="/pqw/4.jpg" alt="" className='object-cover h-full rounded-md col-span-1 row-span-2 ' />
+        <img src="/pqw/6.jpg" alt="" className='object-cover h-full rounded-md col-span-1 row-span-2' />
+
+        <img src="/pqw/8.jpg" alt="" className='object-cover rounded-md col-span-2 md:row-span-2 md:object-cover md:w-full md:h-full' />
+
+
         <img src="/pics/1Z0A9315.jpg" alt="" className='object-cover rounded-md col-span-2 md:row-span-2 md:object-cover md:w-full md:h-full' />
         <img src="/pics/1Z0A9357.jpg" alt="" className='object-cover rounded-md col-span-1 row-span-2 ' />
         <img src="/pics/DSC_0106.JPG" alt="" className='object-cover rounded-md col-span-1' />
