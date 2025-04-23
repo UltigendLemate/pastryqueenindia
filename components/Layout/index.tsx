@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Footer from "../Footer";
 import Navbar from "../Navbar";
 import Sponsors from "../Sponsors";
@@ -10,21 +10,8 @@ type Props = {
 };
 
 const Layout = (props: Props) => {
-  const [showPopup, setShowPopup] = useState(false)
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowPopup(true)
-    }, 1000)
-
-    return () => clearTimeout(timer)
-  }, [])
-
-  const handleClosePopup = () => {
-    setShowPopup(false)
-  }
   return (
-    <div className={` ${showPopup ? 'h-screen overflow-hidden' : ''}`}>
+    <div>
       <Navbar />
       <div className={`  grid gap-14 justify-center items-center bg-white text-black ${props.className}`}>{props.children}</div>
       {/* {showPopup && (
